@@ -1,0 +1,7 @@
+C:\Users\Gabriel Rodrigues\Desktop\arquivos\CURSOS\estudos .NET\.NET básico\estudos-basico\estudos-basico\bin\Debug\estudos-basico.exe.config
+C:\Users\Gabriel Rodrigues\Desktop\arquivos\CURSOS\estudos .NET\.NET básico\estudos-basico\estudos-basico\bin\Debug\estudos-basico.exe
+C:\Users\Gabriel Rodrigues\Desktop\arquivos\CURSOS\estudos .NET\.NET básico\estudos-basico\estudos-basico\bin\Debug\estudos-basico.pdb
+C:\Users\Gabriel Rodrigues\Desktop\arquivos\CURSOS\estudos .NET\.NET básico\estudos-basico\estudos-basico\obj\Debug\estudos-basico.csproj.AssemblyReference.cache
+C:\Users\Gabriel Rodrigues\Desktop\arquivos\CURSOS\estudos .NET\.NET básico\estudos-basico\estudos-basico\obj\Debug\estudos-basico.csproj.CoreCompileInputs.cache
+C:\Users\Gabriel Rodrigues\Desktop\arquivos\CURSOS\estudos .NET\.NET básico\estudos-basico\estudos-basico\obj\Debug\estudos-basico.exe
+C:\Users\Gabriel Rodrigues\Desktop\arquivos\CURSOS\estudos .NET\.NET básico\estudos-basico\estudos-basico\obj\Debug\estudos-basico.pdb
