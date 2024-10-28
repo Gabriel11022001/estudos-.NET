@@ -15,7 +15,7 @@ namespace estudos_basico
             // Console -> classe
             // WriteLine -> método estático público
             // no c#, por padrão, o pessoal escreve os nomes dos métodos começando com letra maíuscula -> pascal case
-            Console.WriteLine("Olá Mundo!");
+            /*Console.WriteLine("Olá Mundo!");
 
             // tipos primitivos
             int idade = 23; // inteiro
@@ -158,7 +158,17 @@ namespace estudos_basico
                 Console.WriteLine(e.Message);
             }
 
-            TesteClasses();
+            TesteClasses();*/
+            
+            try
+            {
+                ExecutarPrograma();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+
         }
 
         // por padrão, os métodos em c# começam com letra maiuscula
@@ -224,6 +234,11 @@ namespace estudos_basico
 
             // método ToUpper() -> retorna string toda maiuscula
             Console.WriteLine(pessoa1.GetGenero().ToUpper());
+        }
+
+        private static void ExecutarPrograma()
+        {
+            Programa.Executar();
         }
 
     }

@@ -43,8 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="OpcaoMenu.cs" />
+    <Compile Include="OpcoesMenu\EstudoStrings.cs" />
+    <Compile Include="OpcoesMenu\VariaveisETipos.cs" />
     <Compile Include="Pessoa.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="Programa.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
