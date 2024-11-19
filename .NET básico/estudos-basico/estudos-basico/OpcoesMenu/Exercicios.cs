@@ -20,7 +20,7 @@ namespace estudos_basico.OpcoesMenu
                 Console.WriteLine("Selecione um exercício para executar");
                 Console.WriteLine("1 - primeiro exercício");
                 Console.WriteLine("2 - segundo exercício(agenda de contatos)");
-                Console.WriteLine("3 - terceiro exercício");
+                Console.WriteLine("3 - terceiro exercício(lista genérica)");
                 Console.WriteLine("4 - quarto exercício");
                 Console.WriteLine("5 - quinto exercício");
 
@@ -42,6 +42,12 @@ namespace estudos_basico.OpcoesMenu
                             break;
                         case 2:
                             exercicio = new Exercicio2();
+                            break;
+                        case 3:
+                            exercicio = new Exercicio3();
+                            break;
+                        case 4:
+                            exercicio = new Exercicio4();
                             break;
                         default:
                             Console.WriteLine("Exercício inválido!");

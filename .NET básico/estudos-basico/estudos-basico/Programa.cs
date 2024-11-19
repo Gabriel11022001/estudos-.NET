@@ -25,6 +25,10 @@ namespace estudos_basico
             Console.WriteLine("6 - classes e objetos");
             Console.WriteLine("7 - métodos");
             Console.WriteLine("8 - getter e setter");
+            Console.WriteLine("9 - enums");
+            Console.WriteLine("10 - arrays/coleções");
+            Console.WriteLine("11 - listas");
+            Console.WriteLine("12 - ArrayList");
 
             opcao = Int32.Parse(Console.ReadLine());
 
@@ -65,6 +69,22 @@ namespace estudos_basico
             else if (opcao == 8)
             {
                 opcaoMenu = new GettersSetters();
+            }
+            else if (opcao == 9)
+            {
+                opcaoMenu = new OpcoesMenu.Enums();
+            }
+            else if (opcao == 10)
+            {
+                opcaoMenu = new EstudosArrays();
+            }
+            else if (opcao == 11)
+            {
+                opcaoMenu = new Listas();
+            }
+            else if (opcao == 12)
+            {
+                opcaoMenu = new ArraysLists();
             }
 
             opcaoMenu.ExecutarOpcaoMenu();

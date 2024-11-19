@@ -44,22 +44,32 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\Agenda.cs" />
+    <Compile Include="Classes\Aluno.cs" />
     <Compile Include="Classes\CalculadoraCadeia.cs" />
     <Compile Include="Classes\CalculadoraComun.cs" />
     <Compile Include="Classes\CalculadoraEstatica.cs" />
     <Compile Include="Classes\Carro.cs" />
     <Compile Include="Classes\Contato.cs" />
+    <Compile Include="Classes\ListaGenerica.cs" />
     <Compile Include="Classes\Pessoa.cs" />
+    <Compile Include="Classes\Produto.cs" />
+    <Compile Include="Enums\MesesEnum.cs" />
     <Compile Include="Exercicios\Exercicio.cs" />
     <Compile Include="Exercicios\Exercicio1.cs" />
     <Compile Include="Exercicios\Exercicio2.cs" />
+    <Compile Include="Exercicios\Exercicio3.cs" />
+    <Compile Include="Exercicios\Exercicio4.cs" />
     <Compile Include="OpcaoMenu.cs" />
+    <Compile Include="OpcoesMenu\ArraysLists.cs" />
     <Compile Include="OpcoesMenu\ClassesObjetos.cs" />
+    <Compile Include="OpcoesMenu\Enums.cs" />
     <Compile Include="OpcoesMenu\EstruturasCondicionais.cs" />
+    <Compile Include="OpcoesMenu\EstudosArrays.cs" />
     <Compile Include="OpcoesMenu\EstudoStrings.cs" />
     <Compile Include="OpcoesMenu\Exercicios.cs" />
     <Compile Include="OpcoesMenu\GettersSetters.cs" />
     <Compile Include="OpcoesMenu\LacosRepeticao.cs" />
+    <Compile Include="OpcoesMenu\Listas.cs" />
     <Compile Include="OpcoesMenu\Metodos.cs" />
     <Compile Include="OpcoesMenu\Operadores.cs" />
     <Compile Include="OpcoesMenu\VariaveisETipos.cs" />
