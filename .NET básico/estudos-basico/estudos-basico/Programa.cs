@@ -1,6 +1,7 @@
 ﻿using estudos_basico.OpcoesMenu;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
@@ -29,6 +30,9 @@ namespace estudos_basico
             Console.WriteLine("10 - arrays/coleções");
             Console.WriteLine("11 - listas");
             Console.WriteLine("12 - ArrayList");
+            Console.WriteLine("13 - Set");
+            Console.WriteLine("14 - Dictionary");
+            Console.WriteLine("15 - Herança poo");
 
             opcao = Int32.Parse(Console.ReadLine());
 
@@ -85,6 +89,18 @@ namespace estudos_basico
             else if (opcao == 12)
             {
                 opcaoMenu = new ArraysLists();
+            }
+            else if (opcao == 13)
+            {
+                opcaoMenu = new ListaTipoSet();
+            }
+            else if (opcao == 14)
+            {
+                opcaoMenu = new ListaTipoMapa();
+            }
+            else if (opcao == 15)
+            {
+                opcaoMenu = new EstudosHerancaPOO();
             }
 
             opcaoMenu.ExecutarOpcaoMenu();

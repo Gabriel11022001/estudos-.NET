@@ -13,7 +13,7 @@ namespace estudos_basico.OpcoesMenu
         public override void ExecutarOpcaoMenu()
         {
             int exercicioSelecionado = 0;
-            int ultimoExercicioCadastrado = 5;
+            int ultimoExercicioCadastrado = 10;
 
             while (exercicioSelecionado <= 0 || exercicioSelecionado > ultimoExercicioCadastrado)
             {
@@ -21,8 +21,11 @@ namespace estudos_basico.OpcoesMenu
                 Console.WriteLine("1 - primeiro exercício");
                 Console.WriteLine("2 - segundo exercício(agenda de contatos)");
                 Console.WriteLine("3 - terceiro exercício(lista genérica)");
-                Console.WriteLine("4 - quarto exercício");
+                Console.WriteLine("4 - quarto exercício(classe aluno)");
                 Console.WriteLine("5 - quinto exercício");
+                Console.WriteLine("6 - sexto exercício");
+                Console.WriteLine("7 - sétimo exercício");
+                Console.WriteLine("8 - oitavo exercício(cartão de comemoração)");
 
                 exercicioSelecionado = Int32.Parse(Console.ReadLine());
 
@@ -48,6 +51,18 @@ namespace estudos_basico.OpcoesMenu
                             break;
                         case 4:
                             exercicio = new Exercicio4();
+                            break;
+                        case 5:
+                            exercicio = new Exercicio5();
+                            break;
+                        case 6:
+                            exercicio = new Exercicio6();
+                            break;
+                        case 7:
+                            exercicio = new Exercicio7();
+                            break;
+                        case 8:
+                            exercicio = new Exercicio8();
                             break;
                         default:
                             Console.WriteLine("Exercício inválido!");

@@ -3,48 +3,100 @@
   "WorkspaceRootPath": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DE895171-DC3E-4904-B829-EA8DE03E393C}|estudos-basico\\estudos-basico.csproj|c:\\users\\gabriel rodrigues\\desktop\\arquivos\\cursos\\estudos .net\\.net b\u00E1sico\\estudos-basico\\estudos-basico\\opcoesmenu\\arrayslists.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE895171-DC3E-4904-B829-EA8DE03E393C}|estudos-basico\\estudos-basico.csproj|solutionrelative:estudos-basico\\opcoesmenu\\arrayslists.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DE895171-DC3E-4904-B829-EA8DE03E393C}|estudos-basico\\estudos-basico.csproj|c:\\users\\gabriel rodrigues\\desktop\\arquivos\\cursos\\estudos .net\\.net b\u00E1sico\\estudos-basico\\estudos-basico\\classes\\pessoaencapsulamentofilhoteste.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE895171-DC3E-4904-B829-EA8DE03E393C}|estudos-basico\\estudos-basico.csproj|solutionrelative:estudos-basico\\classes\\pessoaencapsulamentofilhoteste.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE895171-DC3E-4904-B829-EA8DE03E393C}|estudos-basico\\estudos-basico.csproj|c:\\users\\gabriel rodrigues\\desktop\\arquivos\\cursos\\estudos .net\\.net b\u00E1sico\\estudos-basico\\estudos-basico\\classes\\pessoatesteencapsulamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE895171-DC3E-4904-B829-EA8DE03E393C}|estudos-basico\\estudos-basico.csproj|solutionrelative:estudos-basico\\classes\\pessoatesteencapsulamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE895171-DC3E-4904-B829-EA8DE03E393C}|estudos-basico\\estudos-basico.csproj|c:\\users\\gabriel rodrigues\\desktop\\arquivos\\cursos\\estudos .net\\.net b\u00E1sico\\estudos-basico\\estudos-basico\\opcoesmenu\\estudosencapsulamentopoo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE895171-DC3E-4904-B829-EA8DE03E393C}|estudos-basico\\estudos-basico.csproj|solutionrelative:estudos-basico\\opcoesmenu\\estudosencapsulamentopoo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE895171-DC3E-4904-B829-EA8DE03E393C}|estudos-basico\\estudos-basico.csproj|c:\\users\\gabriel rodrigues\\desktop\\arquivos\\cursos\\estudos .net\\.net b\u00E1sico\\estudos-basico\\estudos-basico\\opcoesmenu\\estudosherancapoo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE895171-DC3E-4904-B829-EA8DE03E393C}|estudos-basico\\estudos-basico.csproj|solutionrelative:estudos-basico\\opcoesmenu\\estudosherancapoo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE895171-DC3E-4904-B829-EA8DE03E393C}|estudos-basico\\estudos-basico.csproj|c:\\users\\gabriel rodrigues\\desktop\\arquivos\\cursos\\estudos .net\\.net b\u00E1sico\\estudos-basico\\estudos-basico\\classes\\veiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE895171-DC3E-4904-B829-EA8DE03E393C}|estudos-basico\\estudos-basico.csproj|solutionrelative:estudos-basico\\classes\\veiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE895171-DC3E-4904-B829-EA8DE03E393C}|estudos-basico\\estudos-basico.csproj|c:\\users\\gabriel rodrigues\\desktop\\arquivos\\cursos\\estudos .net\\.net b\u00E1sico\\estudos-basico\\estudos-basico\\classes\\vectra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE895171-DC3E-4904-B829-EA8DE03E393C}|estudos-basico\\estudos-basico.csproj|solutionrelative:estudos-basico\\classes\\vectra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE895171-DC3E-4904-B829-EA8DE03E393C}|estudos-basico\\estudos-basico.csproj|C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\estudos-basico\\exercicios\\exercicio7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE895171-DC3E-4904-B829-EA8DE03E393C}|estudos-basico\\estudos-basico.csproj|solutionrelative:estudos-basico\\exercicios\\exercicio7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE895171-DC3E-4904-B829-EA8DE03E393C}|estudos-basico\\estudos-basico.csproj|C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\estudos-basico\\opcoesmenu\\exercicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE895171-DC3E-4904-B829-EA8DE03E393C}|estudos-basico\\estudos-basico.csproj|solutionrelative:estudos-basico\\opcoesmenu\\exercicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE895171-DC3E-4904-B829-EA8DE03E393C}|estudos-basico\\estudos-basico.csproj|c:\\users\\gabriel rodrigues\\desktop\\arquivos\\cursos\\estudos .net\\.net b\u00E1sico\\estudos-basico\\estudos-basico\\exercicios\\exercicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE895171-DC3E-4904-B829-EA8DE03E393C}|estudos-basico\\estudos-basico.csproj|solutionrelative:estudos-basico\\exercicios\\exercicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE895171-DC3E-4904-B829-EA8DE03E393C}|estudos-basico\\estudos-basico.csproj|C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\estudos-basico\\exercicios\\exercicio4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE895171-DC3E-4904-B829-EA8DE03E393C}|estudos-basico\\estudos-basico.csproj|solutionrelative:estudos-basico\\exercicios\\exercicio4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE895171-DC3E-4904-B829-EA8DE03E393C}|estudos-basico\\estudos-basico.csproj|C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\estudos-basico\\exercicios\\exercicio6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE895171-DC3E-4904-B829-EA8DE03E393C}|estudos-basico\\estudos-basico.csproj|solutionrelative:estudos-basico\\exercicios\\exercicio6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE895171-DC3E-4904-B829-EA8DE03E393C}|estudos-basico\\estudos-basico.csproj|C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\estudos-basico\\exercicios\\exercicio5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE895171-DC3E-4904-B829-EA8DE03E393C}|estudos-basico\\estudos-basico.csproj|solutionrelative:estudos-basico\\exercicios\\exercicio5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DE895171-DC3E-4904-B829-EA8DE03E393C}|estudos-basico\\estudos-basico.csproj|c:\\users\\gabriel rodrigues\\desktop\\arquivos\\cursos\\estudos .net\\.net b\u00E1sico\\estudos-basico\\estudos-basico\\programa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DE895171-DC3E-4904-B829-EA8DE03E393C}|estudos-basico\\estudos-basico.csproj|solutionrelative:estudos-basico\\programa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DE895171-DC3E-4904-B829-EA8DE03E393C}|estudos-basico\\estudos-basico.csproj|c:\\users\\gabriel rodrigues\\desktop\\arquivos\\cursos\\estudos .net\\.net b\u00E1sico\\estudos-basico\\estudos-basico\\exercicios\\exercicio4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE895171-DC3E-4904-B829-EA8DE03E393C}|estudos-basico\\estudos-basico.csproj|solutionrelative:estudos-basico\\exercicios\\exercicio4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DE895171-DC3E-4904-B829-EA8DE03E393C}|estudos-basico\\estudos-basico.csproj|C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\estudos-basico\\classes\\exercicio7\\clienterepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE895171-DC3E-4904-B829-EA8DE03E393C}|estudos-basico\\estudos-basico.csproj|solutionrelative:estudos-basico\\classes\\exercicio7\\clienterepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DE895171-DC3E-4904-B829-EA8DE03E393C}|estudos-basico\\estudos-basico.csproj|c:\\users\\gabriel rodrigues\\desktop\\arquivos\\cursos\\estudos .net\\.net b\u00E1sico\\estudos-basico\\estudos-basico\\opcoesmenu\\exercicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE895171-DC3E-4904-B829-EA8DE03E393C}|estudos-basico\\estudos-basico.csproj|solutionrelative:estudos-basico\\opcoesmenu\\exercicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DE895171-DC3E-4904-B829-EA8DE03E393C}|estudos-basico\\estudos-basico.csproj|C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\estudos-basico\\classes\\exercicio7\\iclienterepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE895171-DC3E-4904-B829-EA8DE03E393C}|estudos-basico\\estudos-basico.csproj|solutionrelative:estudos-basico\\classes\\exercicio7\\iclienterepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DE895171-DC3E-4904-B829-EA8DE03E393C}|estudos-basico\\estudos-basico.csproj|c:\\users\\gabriel rodrigues\\desktop\\arquivos\\cursos\\estudos .net\\.net b\u00E1sico\\estudos-basico\\estudos-basico\\classes\\aluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE895171-DC3E-4904-B829-EA8DE03E393C}|estudos-basico\\estudos-basico.csproj|solutionrelative:estudos-basico\\classes\\aluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DE895171-DC3E-4904-B829-EA8DE03E393C}|estudos-basico\\estudos-basico.csproj|c:\\users\\gabriel rodrigues\\desktop\\arquivos\\cursos\\estudos .net\\.net b\u00E1sico\\estudos-basico\\estudos-basico\\classes\\exercicio7\\clienteservico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE895171-DC3E-4904-B829-EA8DE03E393C}|estudos-basico\\estudos-basico.csproj|solutionrelative:estudos-basico\\classes\\exercicio7\\clienteservico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DE895171-DC3E-4904-B829-EA8DE03E393C}|estudos-basico\\estudos-basico.csproj|c:\\users\\gabriel rodrigues\\desktop\\arquivos\\cursos\\estudos .net\\.net b\u00E1sico\\estudos-basico\\estudos-basico\\opcoesmenu\\listas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE895171-DC3E-4904-B829-EA8DE03E393C}|estudos-basico\\estudos-basico.csproj|solutionrelative:estudos-basico\\opcoesmenu\\listas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DE895171-DC3E-4904-B829-EA8DE03E393C}|estudos-basico\\estudos-basico.csproj|C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\estudos-basico\\classes\\exercicio7\\validadados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE895171-DC3E-4904-B829-EA8DE03E393C}|estudos-basico\\estudos-basico.csproj|solutionrelative:estudos-basico\\classes\\exercicio7\\validadados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DE895171-DC3E-4904-B829-EA8DE03E393C}|estudos-basico\\estudos-basico.csproj|c:\\users\\gabriel rodrigues\\desktop\\arquivos\\cursos\\estudos .net\\.net b\u00E1sico\\estudos-basico\\estudos-basico\\classes\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE895171-DC3E-4904-B829-EA8DE03E393C}|estudos-basico\\estudos-basico.csproj|solutionrelative:estudos-basico\\classes\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DE895171-DC3E-4904-B829-EA8DE03E393C}|estudos-basico\\estudos-basico.csproj|C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\estudos-basico\\classes\\exercicio7\\respostabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE895171-DC3E-4904-B829-EA8DE03E393C}|estudos-basico\\estudos-basico.csproj|solutionrelative:estudos-basico\\classes\\exercicio7\\respostabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DE895171-DC3E-4904-B829-EA8DE03E393C}|estudos-basico\\estudos-basico.csproj|c:\\users\\gabriel rodrigues\\desktop\\arquivos\\cursos\\estudos .net\\.net b\u00E1sico\\estudos-basico\\estudos-basico\\opcoesmenu\\classesobjetos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE895171-DC3E-4904-B829-EA8DE03E393C}|estudos-basico\\estudos-basico.csproj|solutionrelative:estudos-basico\\opcoesmenu\\classesobjetos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DE895171-DC3E-4904-B829-EA8DE03E393C}|estudos-basico\\estudos-basico.csproj|C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\estudos-basico\\classes\\exercicio7\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE895171-DC3E-4904-B829-EA8DE03E393C}|estudos-basico\\estudos-basico.csproj|solutionrelative:estudos-basico\\classes\\exercicio7\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DE895171-DC3E-4904-B829-EA8DE03E393C}|estudos-basico\\estudos-basico.csproj|c:\\users\\gabriel rodrigues\\desktop\\arquivos\\cursos\\estudos .net\\.net b\u00E1sico\\estudos-basico\\estudos-basico\\exercicios\\exercicio3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE895171-DC3E-4904-B829-EA8DE03E393C}|estudos-basico\\estudos-basico.csproj|solutionrelative:estudos-basico\\exercicios\\exercicio3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DE895171-DC3E-4904-B829-EA8DE03E393C}|estudos-basico\\estudos-basico.csproj|C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\estudos-basico\\classes\\exercicio7\\irepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE895171-DC3E-4904-B829-EA8DE03E393C}|estudos-basico\\estudos-basico.csproj|solutionrelative:estudos-basico\\classes\\exercicio7\\irepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DE895171-DC3E-4904-B829-EA8DE03E393C}|estudos-basico\\estudos-basico.csproj|c:\\users\\gabriel rodrigues\\desktop\\arquivos\\cursos\\estudos .net\\.net b\u00E1sico\\estudos-basico\\estudos-basico\\classes\\listagenerica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE895171-DC3E-4904-B829-EA8DE03E393C}|estudos-basico\\estudos-basico.csproj|solutionrelative:estudos-basico\\classes\\listagenerica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DE895171-DC3E-4904-B829-EA8DE03E393C}|estudos-basico\\estudos-basico.csproj|C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\estudos-basico\\classes\\exercicio7\\endereco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE895171-DC3E-4904-B829-EA8DE03E393C}|estudos-basico\\estudos-basico.csproj|solutionrelative:estudos-basico\\classes\\exercicio7\\endereco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DE895171-DC3E-4904-B829-EA8DE03E393C}|estudos-basico\\estudos-basico.csproj|c:\\users\\gabriel rodrigues\\desktop\\arquivos\\cursos\\estudos .net\\.net b\u00E1sico\\estudos-basico\\estudos-basico\\opcoesmenu\\estudosarrays.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE895171-DC3E-4904-B829-EA8DE03E393C}|estudos-basico\\estudos-basico.csproj|solutionrelative:estudos-basico\\opcoesmenu\\estudosarrays.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DE895171-DC3E-4904-B829-EA8DE03E393C}|estudos-basico\\estudos-basico.csproj|C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\estudos-basico\\classes\\exercicio7\\contato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE895171-DC3E-4904-B829-EA8DE03E393C}|estudos-basico\\estudos-basico.csproj|solutionrelative:estudos-basico\\classes\\exercicio7\\contato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE895171-DC3E-4904-B829-EA8DE03E393C}|estudos-basico\\estudos-basico.csproj|C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\estudos-basico\\classes\\exercicio6\\carro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE895171-DC3E-4904-B829-EA8DE03E393C}|estudos-basico\\estudos-basico.csproj|solutionrelative:estudos-basico\\classes\\exercicio6\\carro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE895171-DC3E-4904-B829-EA8DE03E393C}|estudos-basico\\estudos-basico.csproj|C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\estudos-basico\\classes\\exercicio5\\pessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE895171-DC3E-4904-B829-EA8DE03E393C}|estudos-basico\\estudos-basico.csproj|solutionrelative:estudos-basico\\classes\\exercicio5\\pessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -59,145 +111,306 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ArraysLists.cs",
-              "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\estudos-basico\\OpcoesMenu\\ArraysLists.cs",
-              "RelativeDocumentMoniker": "estudos-basico\\OpcoesMenu\\ArraysLists.cs",
-              "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\estudos-basico\\OpcoesMenu\\ArraysLists.cs",
-              "RelativeToolTip": "estudos-basico\\OpcoesMenu\\ArraysLists.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAANAAAAAAAAAA==",
+              "Title": "PessoaEncapsulamentoFilhoTeste.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\estudos-basico\\Classes\\PessoaEncapsulamentoFilhoTeste.cs",
+              "RelativeDocumentMoniker": "estudos-basico\\Classes\\PessoaEncapsulamentoFilhoTeste.cs",
+              "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\estudos-basico\\Classes\\PessoaEncapsulamentoFilhoTeste.cs",
+              "RelativeToolTip": "estudos-basico\\Classes\\PessoaEncapsulamentoFilhoTeste.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T20:18:28.169Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Aluno.cs",
-              "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\estudos-basico\\Classes\\Aluno.cs",
-              "RelativeDocumentMoniker": "estudos-basico\\Classes\\Aluno.cs",
-              "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\estudos-basico\\Classes\\Aluno.cs",
-              "RelativeToolTip": "estudos-basico\\Classes\\Aluno.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAASwEIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T18:07:12.449Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Exercicio4.cs",
-              "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\estudos-basico\\Exercicios\\Exercicio4.cs",
-              "RelativeDocumentMoniker": "estudos-basico\\Exercicios\\Exercicio4.cs",
-              "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\estudos-basico\\Exercicios\\Exercicio4.cs",
-              "RelativeToolTip": "estudos-basico\\Exercicios\\Exercicio4.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAswCYAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T18:06:12.207Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Produto.cs",
-              "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\estudos-basico\\Classes\\Produto.cs",
-              "RelativeDocumentMoniker": "estudos-basico\\Classes\\Produto.cs",
-              "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\estudos-basico\\Classes\\Produto.cs",
-              "RelativeToolTip": "estudos-basico\\Classes\\Produto.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T17:27:12.343Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Listas.cs",
-              "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\estudos-basico\\OpcoesMenu\\Listas.cs",
-              "RelativeDocumentMoniker": "estudos-basico\\OpcoesMenu\\Listas.cs",
-              "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\estudos-basico\\OpcoesMenu\\Listas.cs",
-              "RelativeToolTip": "estudos-basico\\OpcoesMenu\\Listas.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAswCgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T17:17:36.437Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ClassesObjetos.cs",
-              "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\estudos-basico\\OpcoesMenu\\ClassesObjetos.cs",
-              "RelativeDocumentMoniker": "estudos-basico\\OpcoesMenu\\ClassesObjetos.cs",
-              "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\estudos-basico\\OpcoesMenu\\ClassesObjetos.cs",
-              "RelativeToolTip": "estudos-basico\\OpcoesMenu\\ClassesObjetos.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T17:15:26.646Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Exercicios.cs",
-              "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\estudos-basico\\OpcoesMenu\\Exercicios.cs",
-              "RelativeDocumentMoniker": "estudos-basico\\OpcoesMenu\\Exercicios.cs",
-              "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\estudos-basico\\OpcoesMenu\\Exercicios.cs",
-              "RelativeToolTip": "estudos-basico\\OpcoesMenu\\Exercicios.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAswDAAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T14:41:21.17Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ListaGenerica.cs",
-              "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\estudos-basico\\Classes\\ListaGenerica.cs",
-              "RelativeDocumentMoniker": "estudos-basico\\Classes\\ListaGenerica.cs",
-              "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\estudos-basico\\Classes\\ListaGenerica.cs",
-              "RelativeToolTip": "estudos-basico\\Classes\\ListaGenerica.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFkAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T14:32:52.955Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Exercicio3.cs",
-              "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\estudos-basico\\Exercicios\\Exercicio3.cs",
-              "RelativeDocumentMoniker": "estudos-basico\\Exercicios\\Exercicio3.cs",
-              "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\estudos-basico\\Exercicios\\Exercicio3.cs",
-              "RelativeToolTip": "estudos-basico\\Exercicios\\Exercicio3.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAcwCYAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T14:31:56.306Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "EstudosArrays.cs",
-              "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\estudos-basico\\OpcoesMenu\\EstudosArrays.cs",
-              "RelativeDocumentMoniker": "estudos-basico\\OpcoesMenu\\EstudosArrays.cs",
-              "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\estudos-basico\\OpcoesMenu\\EstudosArrays.cs",
-              "RelativeToolTip": "estudos-basico\\OpcoesMenu\\EstudosArrays.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAiwB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T13:55:21.114Z",
+              "WhenOpened": "2024-11-29T18:01:00.344Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "PessoaTesteEncapsulamento.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\estudos-basico\\Classes\\PessoaTesteEncapsulamento.cs",
+              "RelativeDocumentMoniker": "estudos-basico\\Classes\\PessoaTesteEncapsulamento.cs",
+              "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\estudos-basico\\Classes\\PessoaTesteEncapsulamento.cs",
+              "RelativeToolTip": "estudos-basico\\Classes\\PessoaTesteEncapsulamento.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAuwDEAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T17:53:11.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EstudosEncapsulamentoPoo.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\estudos-basico\\OpcoesMenu\\EstudosEncapsulamentoPoo.cs",
+              "RelativeDocumentMoniker": "estudos-basico\\OpcoesMenu\\EstudosEncapsulamentoPoo.cs",
+              "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\estudos-basico\\OpcoesMenu\\EstudosEncapsulamentoPoo.cs",
+              "RelativeToolTip": "estudos-basico\\OpcoesMenu\\EstudosEncapsulamentoPoo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T17:52:00.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Vectra.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\estudos-basico\\Classes\\Vectra.cs",
+              "RelativeDocumentMoniker": "estudos-basico\\Classes\\Vectra.cs",
+              "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\estudos-basico\\Classes\\Vectra.cs",
+              "RelativeToolTip": "estudos-basico\\Classes\\Vectra.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA0wCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T17:15:01.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Veiculo.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\estudos-basico\\Classes\\Veiculo.cs",
+              "RelativeDocumentMoniker": "estudos-basico\\Classes\\Veiculo.cs",
+              "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\estudos-basico\\Classes\\Veiculo.cs",
+              "RelativeToolTip": "estudos-basico\\Classes\\Veiculo.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAA2wE0AAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T17:14:35.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Exercicio.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\estudos-basico\\Exercicios\\Exercicio.cs",
+              "RelativeDocumentMoniker": "estudos-basico\\Exercicios\\Exercicio.cs",
+              "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\estudos-basico\\Exercicios\\Exercicio.cs",
+              "RelativeToolTip": "estudos-basico\\Exercicios\\Exercicio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T14:43:48.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Programa.cs",
               "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\estudos-basico\\Programa.cs",
               "RelativeDocumentMoniker": "estudos-basico\\Programa.cs",
               "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\estudos-basico\\Programa.cs",
               "RelativeToolTip": "estudos-basico\\Programa.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAgwFkAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T13:34:21.455Z",
+              "WhenOpened": "2024-11-29T14:21:53.438Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EstudosHerancaPOO.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\estudos-basico\\OpcoesMenu\\EstudosHerancaPOO.cs",
+              "RelativeDocumentMoniker": "estudos-basico\\OpcoesMenu\\EstudosHerancaPOO.cs",
+              "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\estudos-basico\\OpcoesMenu\\EstudosHerancaPOO.cs",
+              "RelativeToolTip": "estudos-basico\\OpcoesMenu\\EstudosHerancaPOO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T14:20:58.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ClienteServico.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\estudos-basico\\Classes\\Exercicio7\\ClienteServico.cs",
+              "RelativeDocumentMoniker": "estudos-basico\\Classes\\Exercicio7\\ClienteServico.cs",
+              "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\estudos-basico\\Classes\\Exercicio7\\ClienteServico.cs",
+              "RelativeToolTip": "estudos-basico\\Classes\\Exercicio7\\ClienteServico.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T18:27:56.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ClienteRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\estudos-basico\\Classes\\Exercicio7\\ClienteRepositorio.cs",
+              "RelativeDocumentMoniker": "estudos-basico\\Classes\\Exercicio7\\ClienteRepositorio.cs",
+              "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\estudos-basico\\Classes\\Exercicio7\\ClienteRepositorio.cs",
+              "RelativeToolTip": "estudos-basico\\Classes\\Exercicio7\\ClienteRepositorio.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAgwEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T18:25:20.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IClienteRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\estudos-basico\\Classes\\Exercicio7\\IClienteRepositorio.cs",
+              "RelativeDocumentMoniker": "estudos-basico\\Classes\\Exercicio7\\IClienteRepositorio.cs",
+              "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\estudos-basico\\Classes\\Exercicio7\\IClienteRepositorio.cs",
+              "RelativeToolTip": "estudos-basico\\Classes\\Exercicio7\\IClienteRepositorio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T18:23:09.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Exercicio7.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\estudos-basico\\Exercicios\\Exercicio7.cs",
+              "RelativeDocumentMoniker": "estudos-basico\\Exercicios\\Exercicio7.cs",
+              "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\estudos-basico\\Exercicios\\Exercicio7.cs",
+              "RelativeToolTip": "estudos-basico\\Exercicios\\Exercicio7.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T18:06:19.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Exercicio5.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\estudos-basico\\Exercicios\\Exercicio5.cs",
+              "RelativeDocumentMoniker": "estudos-basico\\Exercicios\\Exercicio5.cs",
+              "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\estudos-basico\\Exercicios\\Exercicio5.cs",
+              "RelativeToolTip": "estudos-basico\\Exercicios\\Exercicio5.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T15:16:13.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Exercicio6.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\estudos-basico\\Exercicios\\Exercicio6.cs",
+              "RelativeDocumentMoniker": "estudos-basico\\Exercicios\\Exercicio6.cs",
+              "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\estudos-basico\\Exercicios\\Exercicio6.cs",
+              "RelativeToolTip": "estudos-basico\\Exercicios\\Exercicio6.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T16:39:07.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Exercicios.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\estudos-basico\\OpcoesMenu\\Exercicios.cs",
+              "RelativeDocumentMoniker": "estudos-basico\\OpcoesMenu\\Exercicios.cs",
+              "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\estudos-basico\\OpcoesMenu\\Exercicios.cs",
+              "RelativeToolTip": "estudos-basico\\OpcoesMenu\\Exercicios.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAswBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T15:15:22.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Contato.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\estudos-basico\\Classes\\Exercicio7\\Contato.cs",
+              "RelativeDocumentMoniker": "estudos-basico\\Classes\\Exercicio7\\Contato.cs",
+              "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\estudos-basico\\Classes\\Exercicio7\\Contato.cs",
+              "RelativeToolTip": "estudos-basico\\Classes\\Exercicio7\\Contato.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T18:07:41.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Exercicio4.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\estudos-basico\\Exercicios\\Exercicio4.cs",
+              "RelativeDocumentMoniker": "estudos-basico\\Exercicios\\Exercicio4.cs",
+              "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\estudos-basico\\Exercicios\\Exercicio4.cs",
+              "RelativeToolTip": "estudos-basico\\Exercicios\\Exercicio4.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T15:15:28.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Endereco.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\estudos-basico\\Classes\\Exercicio7\\Endereco.cs",
+              "RelativeDocumentMoniker": "estudos-basico\\Classes\\Exercicio7\\Endereco.cs",
+              "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\estudos-basico\\Classes\\Exercicio7\\Endereco.cs",
+              "RelativeToolTip": "estudos-basico\\Classes\\Exercicio7\\Endereco.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T18:07:52.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\estudos-basico\\Classes\\Exercicio7\\IRepositorio.cs",
+              "RelativeDocumentMoniker": "estudos-basico\\Classes\\Exercicio7\\IRepositorio.cs",
+              "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\estudos-basico\\Classes\\Exercicio7\\IRepositorio.cs",
+              "RelativeToolTip": "estudos-basico\\Classes\\Exercicio7\\IRepositorio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T18:21:46.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "RespostaBase.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\estudos-basico\\Classes\\Exercicio7\\RespostaBase.cs",
+              "RelativeDocumentMoniker": "estudos-basico\\Classes\\Exercicio7\\RespostaBase.cs",
+              "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\estudos-basico\\Classes\\Exercicio7\\RespostaBase.cs",
+              "RelativeToolTip": "estudos-basico\\Classes\\Exercicio7\\RespostaBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T18:30:21.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ValidaDados.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\estudos-basico\\Classes\\Exercicio7\\ValidaDados.cs",
+              "RelativeDocumentMoniker": "estudos-basico\\Classes\\Exercicio7\\ValidaDados.cs",
+              "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\estudos-basico\\Classes\\Exercicio7\\ValidaDados.cs",
+              "RelativeToolTip": "estudos-basico\\Classes\\Exercicio7\\ValidaDados.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T18:36:29.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\estudos-basico\\Classes\\Exercicio7\\Cliente.cs",
+              "RelativeDocumentMoniker": "estudos-basico\\Classes\\Exercicio7\\Cliente.cs",
+              "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\estudos-basico\\Classes\\Exercicio7\\Cliente.cs",
+              "RelativeToolTip": "estudos-basico\\Classes\\Exercicio7\\Cliente.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T18:07:30.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Carro.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\estudos-basico\\Classes\\Exercicio6\\Carro.cs",
+              "RelativeDocumentMoniker": "estudos-basico\\Classes\\Exercicio6\\Carro.cs",
+              "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\estudos-basico\\Classes\\Exercicio6\\Carro.cs",
+              "RelativeToolTip": "estudos-basico\\Classes\\Exercicio6\\Carro.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T16:42:25.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Pessoa.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\estudos-basico\\Classes\\Exercicio5\\Pessoa.cs",
+              "RelativeDocumentMoniker": "estudos-basico\\Classes\\Exercicio5\\Pessoa.cs",
+              "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\estudos-basico\\Classes\\Exercicio5\\Pessoa.cs",
+              "RelativeToolTip": "estudos-basico\\Classes\\Exercicio5\\Pessoa.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T15:17:01.736Z"
             }
           ]
         }

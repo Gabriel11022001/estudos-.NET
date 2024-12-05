@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "M3wX7Yq3axkRvyWUm9ZYK8M52jqv2l7HEiM17kNI1Y8=",
+  "Source": "ApiCatalogoProdutos",
+  "BasePath": "_content/ApiCatalogoProdutos",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

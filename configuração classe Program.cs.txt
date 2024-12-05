@@ -1,0 +1,6 @@
+// configurar o contexto do banco de dados
+string stringConexaoBancoSqlServer = builder.Configuration.GetConnectionString("DefaultConnection");
+builder.Services.AddDbContext<AppDbContexto>(opcoes =>
+{
+    opcoes.UseSqlServer(stringConexaoBancoSqlServer);
+});
