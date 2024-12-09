@@ -26,6 +26,15 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+/*
+ setando para que quando estiver no ambiente de produção,
+ caso uma exceção não seja tratada, será redirecionado para o endpoint /Error
+ */
+if (!app.Environment.IsDevelopment())
+{
+    app.UseExceptionHandler("/Error");
+}
+
 app.UseHttpsRedirection();
 
 app.UseAuthorization();

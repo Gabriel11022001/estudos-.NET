@@ -63,5 +63,23 @@ namespace ApiCatalogoProdutos.Repositorios
             return true;
         }
 
+        public List<ProdutoDTO> BuscarProdutosPelaCategoria(int idCategoria)
+        {
+            List<ProdutoDTO> produtosRetornar = new List<ProdutoDTO>();
+            List<Produto> produtosCategoria = this._contexto.Produtos.Where(p => p.CategoriaId == idCategoria).ToList();
+
+            if (produtosCategoria.Count > 0)
+            {
+
+                foreach (Produto produto in produtosCategoria)
+                {
+                    produtosRetornar.Add(new ProdutoDTO(produto));
+                }
+
+            }
+
+            return produtosRetornar;
+        }
+
     }
 }

@@ -20,7 +20,6 @@ namespace estudos_basico.Classes.Exercicio8
                 throw new Exception("Informe o remetente!");
             }
 
-
         }
 
     }

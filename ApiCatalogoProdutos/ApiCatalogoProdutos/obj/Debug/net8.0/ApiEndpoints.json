@@ -2,7 +2,7 @@
   {
     "ContainingType": "ApiCatalogoProdutos.Controllers.CategoriasController",
     "Method": "CadastrarCategoria",
-    "RelativePath": "api/categoria",
+    "RelativePath": "api/Categorias",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -28,7 +28,7 @@
   {
     "ContainingType": "ApiCatalogoProdutos.Controllers.CategoriasController",
     "Method": "BuscarTodasCategorias",
-    "RelativePath": "api/categoria",
+    "RelativePath": "api/Categorias",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -47,8 +47,34 @@
   },
   {
     "ContainingType": "ApiCatalogoProdutos.Controllers.CategoriasController",
+    "Method": "DeletarCategoria",
+    "RelativePath": "api/Categorias",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idCategoriaDeletar",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ApiCatalogoProdutos.DTO.RespostaHttp\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiCatalogoProdutos.Controllers.CategoriasController",
     "Method": "BuscarCategoriaPeloId",
-    "RelativePath": "api/categoria/{id}",
+    "RelativePath": "api/Categorias/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -73,8 +99,54 @@
   },
   {
     "ContainingType": "ApiCatalogoProdutos.Controllers.ProdutosController",
+    "Method": "BuscarProdutosAsync",
+    "RelativePath": "api/Produtos/buscar-produtos-async",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "ApiCatalogoProdutos.DTO.RespostaHttp\u00601[[System.Collections.Generic.List\u00601[[ApiCatalogoProdutos.DTO.ProdutoDTO, ApiCatalogoProdutos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiCatalogoProdutos.Controllers.ProdutosController",
+    "Method": "CadastrarProdutoAssincrono",
+    "RelativePath": "api/Produtos/cadastrar-produto-async",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "produtoDTO",
+        "Type": "ApiCatalogoProdutos.DTO.ProdutoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ApiCatalogoProdutos.DTO.RespostaHttp\u00601[[ApiCatalogoProdutos.DTO.ProdutoDTO, ApiCatalogoProdutos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiCatalogoProdutos.Controllers.ProdutosController",
     "Method": "CadastrarProdutoPrimeiroTeste",
-    "RelativePath": "cadastrar-produto-primeiro-teste",
+    "RelativePath": "api/Produtos/cadastrar-produto-primeiro-teste",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -100,7 +172,7 @@
   {
     "ContainingType": "ApiCatalogoProdutos.Controllers.ProdutosController",
     "Method": "DeletarProdutoPrimeiroTeste",
-    "RelativePath": "deletar-produto-primeiro-teste/{idProdutoDeletar}",
+    "RelativePath": "api/Produtos/deletar-produto-primeiro-teste/{idProdutoDeletar}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -116,7 +188,7 @@
   {
     "ContainingType": "ApiCatalogoProdutos.Controllers.ProdutosController",
     "Method": "EditarProdutoPrimeiroTeste",
-    "RelativePath": "editar-produto-primeiro-teste",
+    "RelativePath": "api/Produtos/editar-produto-primeiro-teste",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -142,7 +214,7 @@
   {
     "ContainingType": "ApiCatalogoProdutos.Controllers.ProdutosController",
     "Method": "BuscarProdutoPeloIdPrimeiroTeste",
-    "RelativePath": "primeiro-teste-consultar-produto-pelo-id/{idProduto}",
+    "RelativePath": "api/Produtos/primeiro-teste-consultar-produto-pelo-id/{idProduto}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -168,7 +240,7 @@
   {
     "ContainingType": "ApiCatalogoProdutos.Controllers.ProdutosController",
     "Method": "BuscarTodosProdutosPrimeiroTeste",
-    "RelativePath": "primeiro-teste-consultar-todos-produtos",
+    "RelativePath": "api/Produtos/primeiro-teste-consultar-todos-produtos",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -188,7 +260,7 @@
   {
     "ContainingType": "ApiCatalogoProdutos.Controllers.ProdutosController",
     "Method": "TestePrimeraAction",
-    "RelativePath": "teste-primeira-action",
+    "RelativePath": "api/Produtos/teste-primeira-action",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

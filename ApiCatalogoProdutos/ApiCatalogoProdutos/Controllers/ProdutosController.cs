@@ -2,25 +2,28 @@
 using ApiCatalogoProdutos.DTO;
 using ApiCatalogoProdutos.Models;
 using ApiCatalogoProdutos.Servicos;
+using ApiCatalogoProdutos.Utils;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace ApiCatalogoProdutos.Controllers
 {
-    [Route("api/produto")]
+    [Route("api/[controller]")]
     [ApiController]
     public class ProdutosController : ControllerBase
     {
 
         private ProdutoServico _produtoServico;
         private readonly AppDbContexto _contextoTeste;
+        private readonly IValidador<ProdutoDTO> _validadorCadastroProduto;
 
         // injeção de dependencia do contexto na controller
         public ProdutosController(AppDbContexto contexto)
         {
             this._produtoServico = new ProdutoServico(contexto);
             this._contextoTeste = contexto;
+            this._validadorCadastroProduto = new ValidarDadosProdutoCadastro();
         }
 
         /**
@@ -28,7 +31,7 @@ namespace ApiCatalogoProdutos.Controllers
          * http get para realizar essa requisição, eu posso passar a
          * identificação para esse endpoint passando HttpGet("<endpoint>")
          */
-        [ HttpGet("/teste-primeira-action") ]
+        [ HttpGet("teste-primeira-action") ]
         public string TestePrimeraAction()
         {
 
@@ -36,7 +39,7 @@ namespace ApiCatalogoProdutos.Controllers
         }
 
         // devo fazer com que minhas actions retornem um ActionResult
-        [ HttpGet("/primeiro-teste-consultar-todos-produtos") ]
+        [ HttpGet("primeiro-teste-consultar-todos-produtos") ]
         public ActionResult<List<Produto>> BuscarTodosProdutosPrimeiroTeste()
         {
             
@@ -61,7 +64,7 @@ namespace ApiCatalogoProdutos.Controllers
 
         }
 
-        [ HttpGet("/primeiro-teste-consultar-produto-pelo-id/{idProduto:int}") ]
+        [ HttpGet("primeiro-teste-consultar-produto-pelo-id/{idProduto:int}") ]
         public ActionResult<Produto> BuscarProdutoPeloIdPrimeiroTeste(int idProduto)
         {
 
@@ -89,7 +92,7 @@ namespace ApiCatalogoProdutos.Controllers
 
         }
 
-        [  HttpPost("/cadastrar-produto-primeiro-teste") ]
+        [  HttpPost("cadastrar-produto-primeiro-teste") ]
         public ActionResult<Produto> CadastrarProdutoPrimeiroTeste(ProdutoCadastrarEditarDTO produtoCadastrarDto)
         {
 
@@ -122,7 +125,7 @@ namespace ApiCatalogoProdutos.Controllers
 
         }
 
-        [ HttpPut("/editar-produto-primeiro-teste") ]
+        [ HttpPut("editar-produto-primeiro-teste") ]
         public ActionResult<Produto> EditarProdutoPrimeiroTeste(ProdutoCadastrarEditarDTO produtoEditarDto)
         {
 
@@ -166,7 +169,7 @@ namespace ApiCatalogoProdutos.Controllers
 
         }
 
-        [ HttpDelete("/deletar-produto-primeiro-teste/{idProdutoDeletar:int}") ]
+        [ HttpDelete("deletar-produto-primeiro-teste/{idProdutoDeletar:int}") ]
         public ActionResult DeletarProdutoPrimeiroTeste(int idProdutoDeletar)
         {
 
@@ -195,6 +198,81 @@ namespace ApiCatalogoProdutos.Controllers
             }
 
         }
+
+        // cadastrar o produto na base de dados mas de forma assincrona
+        // todo método async deve retornar um dado do tipo Task
+        // sempre que for acessar o banco, utilizar o await na frente da invocação do método
+        // sempre que for declarar um método assincrono, definir que o método é async com a palavra reservada async
+        [ HttpPost("cadastrar-produto-async") ]
+        public async Task<ActionResult<RespostaHttp<ProdutoDTO>>> CadastrarProdutoAssincrono(ProdutoDTO produtoDTO)
+        {
+
+            try
+            {
+                // validar se foi informado todos os dados obrigatórios do produto para cadastro
+                string resultadoValidarDadosCadastroProduto = this._validadorCadastroProduto.Validar(produtoDTO);
+
+                if (!resultadoValidarDadosCadastroProduto.Equals(""))
+                {
+
+                    return BadRequest(new RespostaHttp<ProdutoDTO>(resultadoValidarDadosCadastroProduto, false, null));
+                }
+
+                // validar se já não existe outro produto cadastrado com o mesmo nome
+                Produto produtoCadastradoMesmoNome = await this._contextoTeste.Produtos.FirstAsync<Produto>(p => p.Nome.Equals(produtoDTO.Nome));
+
+                if (produtoCadastradoMesmoNome is not null)
+                {
+
+                    return BadRequest(new RespostaHttp<ProdutoDTO>("Já existe um produto cadastrado com o mesmo nome na base de dados!", false, null));
+                }
+
+                Produto produtoCadastrar = new Produto();
+                produtoCadastrar.Nome = produtoDTO.Nome;
+                produtoCadastrar.UrlImagemProduto = produtoDTO.UrlImagemProduto;
+                produtoCadastrar.UnidadesEstoque = produtoDTO.UnidadesEstoque;
+                produtoCadastrar.PrecoVenda = produtoDTO.PrecoVenda;
+                produtoCadastrar.PrecoCompra = produtoDTO.PrecoCompra;
+                produtoCadastrar.Descricao = produtoDTO.Descricao;
+                produtoCadastrar.Ativo = true;
+                produtoCadastrar.CategoriaId = produtoDTO.CategoriaId;
+                
+                // método para add o produto no contexto de forma async
+                await this._contextoTeste.Produtos.AddAsync(produtoCadastrar);
+                // método para efetivar o cadastro de forma async
+                await this._contextoTeste.SaveChangesAsync();
+
+                produtoDTO.ProdutoId = produtoCadastrar.ProdutoId;
+
+                return Ok(new RespostaHttp<ProdutoDTO>("Produto cadastrado com sucesso!", true, produtoDTO));
+            }
+            catch (Exception e)
+            {
+
+                return BadRequest(new RespostaHttp<ProdutoDTO>()
+                {
+                    Mensagem = "Erro ao tentar-se cadastrar o produto de forma async!",
+                    Ok = false,
+                    Conteudo = null
+                });
+            }
+
+        }
+
+        [ HttpGet("buscar-produtos-async") ]
+        public async Task<ActionResult<RespostaHttp<List<ProdutoDTO>>>> BuscarProdutosAsync()
+        {
+            RespostaHttp<List<ProdutoDTO>> respostaObterTodosProdutosAsync = await this._produtoServico.BuscarTodosProdutos();
+
+            if (respostaObterTodosProdutosAsync.Ok)
+            {
+
+                return Ok(respostaObterTodosProdutosAsync);
+            }
+
+            return BadRequest(respostaObterTodosProdutosAsync);
+        }
+
 
     }
 }

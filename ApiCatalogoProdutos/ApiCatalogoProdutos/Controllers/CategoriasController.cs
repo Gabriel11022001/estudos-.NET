@@ -6,7 +6,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace ApiCatalogoProdutos.Controllers
 {
-    [Route("api/categoria/")]
+    // /api/categorias<nome da controller no plural>
+    [Route("api/[controller]/")]
     [ApiController]
     public class CategoriasController : ControllerBase
     {
@@ -19,6 +20,7 @@ namespace ApiCatalogoProdutos.Controllers
         }
 
         // cadastrar categoria
+        // /api/categorias/
         [ HttpPost ]
         public ActionResult<RespostaHttp<bool>> CadastrarCategoria(CategoriaDTO categoriaDTO)
         {
@@ -34,6 +36,7 @@ namespace ApiCatalogoProdutos.Controllers
         }
 
         // buscar todas as categorias
+        // /api/categorias/
         [ HttpGet ]
         public ActionResult<RespostaHttp<List<CategoriaDTO>>> BuscarTodasCategorias()
         {
@@ -44,6 +47,8 @@ namespace ApiCatalogoProdutos.Controllers
                 BadRequest(respostaConsultarTodasCategorias);
         }
 
+        // buscar categoria pelo id
+        // /api/categorias/{id da categoria}
         [ HttpGet("{id:int}") ]
         public ActionResult<RespostaHttp<CategoriaDTO>> BuscarCategoriaPeloId(int id)
         {
@@ -62,6 +67,32 @@ namespace ApiCatalogoProdutos.Controllers
             }
 
             return Ok(respostaConsultarCategoriaPeloId);
+        }
+
+        // deletar categoria
+        // /api/categorias/{ id da categoria para deleção }
+        [ HttpDelete ]
+        public ActionResult<RespostaHttp<Boolean>> DeletarCategoria(int idCategoriaDeletar)
+        {
+            RespostaHttp<Boolean> respostaDeletarCategoria = this._categoriaServico.DeletarCategoria(idCategoriaDeletar);
+
+            if (respostaDeletarCategoria.Ok)
+            {
+
+                if (respostaDeletarCategoria.Mensagem == "Não foi encontrada uma categoria cadastrada com o id informado")
+                {
+
+                    return NotFound(respostaDeletarCategoria);
+                }
+
+                return Ok(respostaDeletarCategoria);
+            }
+            else
+            {
+
+                return BadRequest(respostaDeletarCategoria);
+            }
+
         }
 
     }

@@ -10,10 +10,12 @@ namespace ApiCatalogoProdutos.Servicos
     {
 
         private CategoriaRepositorio _categoriaRepositorio;
+        private ProdutoRepositorio _produtoRepositorio;
 
         public CategoriaServico(AppDbContexto contexto)
         {
             this._categoriaRepositorio = new CategoriaRepositorio(contexto);
+            this._produtoRepositorio = new ProdutoRepositorio(contexto);
         }
 
         public RespostaHttp<bool> CadastrarCategoria(CategoriaDTO categoriaCadastrarDTO)
@@ -117,6 +119,45 @@ namespace ApiCatalogoProdutos.Servicos
                     Mensagem = $"Erro: { e.Message }",
                     Ok = false,
                     Conteudo = null
+                };
+            }
+
+        }
+
+        public RespostaHttp<Boolean> DeletarCategoria(int idCategoriaDeletar)
+        {
+
+            try
+            {
+                CategoriaDTO categoriaDeletarDTO = this._categoriaRepositorio.BuscarPeloId(idCategoriaDeletar);
+
+                if (categoriaDeletarDTO is null)
+                {
+
+                    return new RespostaHttp<bool>("Não foi encontrada uma categoria cadastrada com o id informado!", true, false);
+                }
+
+                // validar se existem produtos relacionados a categoria em questão
+                List<ProdutoDTO> produtosCategoria = this._produtoRepositorio.BuscarProdutosPelaCategoria(idCategoriaDeletar);
+
+                if (produtosCategoria.Count > 0)
+                {
+
+                    return new RespostaHttp<bool>("Existem produtos relacionados a essa categoria!", false, false);
+                }
+
+                this._categoriaRepositorio.DeletarCategoria(idCategoriaDeletar);
+
+                return new RespostaHttp<bool>("Categoria deletada com sucesso da base de dados!", true, false);
+            }
+            catch (Exception e)
+            {
+
+                return new RespostaHttp<bool>()
+                {
+                    Mensagem = "Erro ao tentar-se deletar a categoria: " + e.Message,
+                    Ok = false,
+                    Conteudo = false
                 };
             }
 
