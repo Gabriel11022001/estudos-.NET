@@ -87,5 +87,18 @@ namespace ApiCatalogoProdutos.Repositorios
             return new CategoriaDTO(categoria);
         }
 
+        public async Task<CategoriaDTO> BuscarCategoriaPeloIdAsync(int idCategoriaConsultar)
+        {
+            Categoria categoria = await this._contexto.Categorias.FindAsync(idCategoriaConsultar);
+
+            if (categoria is null)
+            {
+
+                return null;
+            }
+
+            return new CategoriaDTO(categoria);
+        }
+
     }
 }

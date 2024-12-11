@@ -32,7 +32,7 @@ if (app.Environment.IsDevelopment())
  */
 if (!app.Environment.IsDevelopment())
 {
-    app.UseExceptionHandler("/Error");
+    // app.UseExceptionHandler("/Error");
 }
 
 app.UseHttpsRedirection();

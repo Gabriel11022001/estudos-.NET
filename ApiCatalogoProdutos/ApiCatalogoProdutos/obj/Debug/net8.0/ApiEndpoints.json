@@ -145,6 +145,32 @@
   },
   {
     "ContainingType": "ApiCatalogoProdutos.Controllers.ProdutosController",
+    "Method": "CadastrarProdutoAsyncUtilizandoCamadaServicoERepositorio",
+    "RelativePath": "api/Produtos/cadastrar-produto-async-utlizando-camada-servico-e-repositorio",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "produtoDTO",
+        "Type": "ApiCatalogoProdutos.DTO.ProdutoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ApiCatalogoProdutos.DTO.RespostaHttp\u00601[[ApiCatalogoProdutos.DTO.ProdutoDTO, ApiCatalogoProdutos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiCatalogoProdutos.Controllers.ProdutosController",
     "Method": "CadastrarProdutoPrimeiroTeste",
     "RelativePath": "api/Produtos/cadastrar-produto-primeiro-teste",
     "HttpMethod": "POST",

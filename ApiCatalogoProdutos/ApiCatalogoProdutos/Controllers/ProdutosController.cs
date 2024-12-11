@@ -273,6 +273,19 @@ namespace ApiCatalogoProdutos.Controllers
             return BadRequest(respostaObterTodosProdutosAsync);
         }
 
+        [ HttpPost("cadastrar-produto-async-utlizando-camada-servico-e-repositorio") ]
+        public async Task<ActionResult<RespostaHttp<ProdutoDTO>>> CadastrarProdutoAsyncUtilizandoCamadaServicoERepositorio(ProdutoDTO produtoDTO)
+        {
+            RespostaHttp<ProdutoDTO> respostaCadastrarProduto = await this._produtoServico.CadastrarProduto(produtoDTO);
+
+            if (respostaCadastrarProduto.Ok)
+            {
+
+                return Ok(respostaCadastrarProduto);
+            }
+
+            return BadRequest(respostaCadastrarProduto);
+        }
 
     }
 }

@@ -1,6 +1,7 @@
 ﻿using ApiCatalogoProdutos.Contexto;
 using ApiCatalogoProdutos.DTO;
 using ApiCatalogoProdutos.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace ApiCatalogoProdutos.Repositorios
 {
@@ -79,6 +80,41 @@ namespace ApiCatalogoProdutos.Repositorios
             }
 
             return produtosRetornar;
+        }
+
+        public async Task<ProdutoDTO> BuscarProdutoPeloNome(String nomeProdutoConsultar)
+        {
+            Produto produto = await this._contexto.Produtos.Include(p => p.Categoria)
+                .FirstOrDefaultAsync(p => p.Nome.Equals(nomeProdutoConsultar));
+
+            if (produto is null)
+            {
+
+                return null;
+            }
+
+            return new ProdutoDTO(produto);
+        }
+
+        // persistir o produto na base de dados mas de forma assincrona
+        public async Task<ProdutoDTO> CadastrarProdutoAsync(ProdutoDTO produtoDTO)
+        {
+            Produto produtoCadastrar = new Produto();
+            produtoCadastrar.Nome = produtoDTO.Nome;
+            produtoCadastrar.Descricao = produtoDTO.Descricao;
+            produtoCadastrar.UnidadesEstoque = produtoDTO.UnidadesEstoque;
+            produtoCadastrar.PrecoVenda = produtoDTO.PrecoVenda;
+            produtoCadastrar.PrecoCompra = produtoDTO.PrecoCompra;
+            produtoCadastrar.Ativo = produtoDTO.Ativo;
+            produtoCadastrar.UrlImagemProduto = produtoDTO.UrlImagemProduto;
+            produtoCadastrar.CategoriaId = produtoDTO.CategoriaId;
+
+            await this._contexto.AddAsync(produtoCadastrar);
+            await this._contexto.SaveChangesAsync();
+
+            produtoDTO.ProdutoId = produtoCadastrar.ProdutoId;
+
+            return produtoDTO;
         }
 
     }
