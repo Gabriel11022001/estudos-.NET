@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DE895171-DC3E-4904-B829-EA8DE03E393C}|estudos-basico\\estudos-basico.csproj|C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\estudos-basico\\opcoesmenu\\exercicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DE895171-DC3E-4904-B829-EA8DE03E393C}|estudos-basico\\estudos-basico.csproj|c:\\users\\gabriel rodrigues\\desktop\\arquivos\\cursos\\estudos .net\\.net b\u00E1sico\\estudos-basico\\estudos-basico\\opcoesmenu\\exercicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DE895171-DC3E-4904-B829-EA8DE03E393C}|estudos-basico\\estudos-basico.csproj|solutionrelative:estudos-basico\\opcoesmenu\\exercicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DE895171-DC3E-4904-B829-EA8DE03E393C}|estudos-basico\\estudos-basico.csproj|c:\\users\\gabriel rodrigues\\desktop\\arquivos\\cursos\\estudos .net\\.net b\u00E1sico\\estudos-basico\\estudos-basico\\classes\\exercicio8\\cartaodianamorados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DE895171-DC3E-4904-B829-EA8DE03E393C}|estudos-basico\\estudos-basico.csproj|C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\estudos-basico\\classes\\exercicio8\\cartaodianamorados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DE895171-DC3E-4904-B829-EA8DE03E393C}|estudos-basico\\estudos-basico.csproj|solutionrelative:estudos-basico\\classes\\exercicio8\\cartaodianamorados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -34,8 +34,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{7f40df72-066b-4810-a08b-c0fbed76c948}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -46,8 +50,7 @@
               "RelativeToolTip": "estudos-basico\\Classes\\Exercicio8\\CartaoDiaNamorados.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T12:45:16.037Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-03T12:45:16.037Z"
             },
             {
               "$type": "Document",
@@ -59,8 +62,7 @@
               "RelativeToolTip": "estudos-basico\\Classes\\Exercicio8\\CartaoWeb.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T12:40:10.875Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-03T12:40:10.875Z"
             },
             {
               "$type": "Document",
@@ -70,7 +72,7 @@
               "RelativeDocumentMoniker": "estudos-basico\\OpcoesMenu\\Exercicios.cs",
               "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\.NET b\u00E1sico\\estudos-basico\\estudos-basico\\OpcoesMenu\\Exercicios.cs",
               "RelativeToolTip": "estudos-basico\\OpcoesMenu\\Exercicios.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAswBwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAswCMAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-03T12:39:19.238Z",
               "EditorCaption": ""

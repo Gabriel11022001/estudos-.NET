@@ -17,13 +17,19 @@ namespace ApiCatalogoProdutos.Controllers
         private ProdutoServico _produtoServico;
         private readonly AppDbContexto _contextoTeste;
         private readonly IValidador<ProdutoDTO> _validadorCadastroProduto;
+        // ler dados do arquivo de configuração
+        private readonly IConfiguration _configuracoes;
+        // registrar os logs
+        private readonly ILogger<ProdutosController> _logger;
 
         // injeção de dependencia do contexto na controller
-        public ProdutosController(AppDbContexto contexto)
+        public ProdutosController(AppDbContexto contexto, IConfiguration configuration, ILogger<ProdutosController> logger)
         {
             this._produtoServico = new ProdutoServico(contexto);
             this._contextoTeste = contexto;
             this._validadorCadastroProduto = new ValidarDadosProdutoCadastro();
+            this._configuracoes = configuration;
+            this._logger = logger;
         }
 
         /**
@@ -206,6 +212,9 @@ namespace ApiCatalogoProdutos.Controllers
         [ HttpPost("cadastrar-produto-async") ]
         public async Task<ActionResult<RespostaHttp<ProdutoDTO>>> CadastrarProdutoAssincrono(ProdutoDTO produtoDTO)
         {
+            // registrando um log de informação
+            // nesses casos, vai logar as coisas no console do terminal do visual studio
+            this._logger.LogInformation("Iniciando o cadastro de produtos...");
 
             try
             {
@@ -248,6 +257,8 @@ namespace ApiCatalogoProdutos.Controllers
             }
             catch (Exception e)
             {
+                // registrando um log de erro
+                this._logger.LogError("Erro ao tentar-se cadastrar produto: " + e.Message);
 
                 return BadRequest(new RespostaHttp<ProdutoDTO>()
                 {
@@ -285,6 +296,28 @@ namespace ApiCatalogoProdutos.Controllers
             }
 
             return BadRequest(respostaCadastrarProduto);
+        }
+
+        [ HttpGet("/ler-dados-arquivo-configuracao") ]
+        public async Task<ActionResult> LerDadosArquivoConfiguracao()
+        {
+            Dictionary<String, Boolean> camposObrigatorios = new Dictionary<string, bool>();
+
+            camposObrigatorios.Add("nome_produto", this._configuracoes["CamposObrigatorios:NomeProduto"].Equals("True"));
+            camposObrigatorios.Add("preco_compra", this._configuracoes["CamposObrigatorios:PrecoCompraProduto"].Equals("True"));
+            camposObrigatorios.Add("preco_venda", this._configuracoes["CamposObrigatorios:PrecoVendaProduto"].Equals("True"));
+            camposObrigatorios.Add("unidades_estoque", this._configuracoes["CamposObrigatorios:UnidadesEstoqueProduto"].Equals("True"));
+
+            return Ok(camposObrigatorios);
+        }
+
+        [ HttpGet("/testar-logs") ]
+        public ActionResult TestarLogs()
+        {
+            this._logger.LogInformation("Apresentando um log de informação!");
+            this._logger.LogError("Apresentando um log de erro.");
+
+            return Ok();
         }
 
     }

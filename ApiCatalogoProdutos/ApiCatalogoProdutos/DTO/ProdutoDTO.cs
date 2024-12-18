@@ -45,7 +45,11 @@ namespace ApiCatalogoProdutos.DTO
             this.Descricao = produto.Descricao;
             this.UrlImagemProduto = produto.UrlImagemProduto;
 
-            this.CategoriaDTO = new CategoriaDTO(produto.Categoria);
+            if (produto.Categoria != null)
+            {
+                this.CategoriaDTO = new CategoriaDTO(produto.Categoria);
+            }
+
         }
 
     }

@@ -3,8 +3,64 @@
   "WorkspaceRootPath": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\ApiCatalogoProdutos\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3B6332D0-9BC5-4DB0-9A54-6F50ACAD4160}|ApiCatalogoProdutos\\ApiCatalogoProdutos.csproj|c:\\users\\gabriel rodrigues\\desktop\\arquivos\\cursos\\estudos .net\\apicatalogoprodutos\\apicatalogoprodutos\\repositorios\\produtorepositorionovo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B6332D0-9BC5-4DB0-9A54-6F50ACAD4160}|ApiCatalogoProdutos\\ApiCatalogoProdutos.csproj|solutionrelative:apicatalogoprodutos\\repositorios\\produtorepositorionovo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3B6332D0-9BC5-4DB0-9A54-6F50ACAD4160}|ApiCatalogoProdutos\\ApiCatalogoProdutos.csproj|c:\\users\\gabriel rodrigues\\desktop\\arquivos\\cursos\\estudos .net\\apicatalogoprodutos\\apicatalogoprodutos\\dto\\produtodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3B6332D0-9BC5-4DB0-9A54-6F50ACAD4160}|ApiCatalogoProdutos\\ApiCatalogoProdutos.csproj|solutionrelative:apicatalogoprodutos\\dto\\produtodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B6332D0-9BC5-4DB0-9A54-6F50ACAD4160}|ApiCatalogoProdutos\\ApiCatalogoProdutos.csproj|c:\\users\\gabriel rodrigues\\desktop\\arquivos\\cursos\\estudos .net\\apicatalogoprodutos\\apicatalogoprodutos\\controllers\\produtoscontrollertestescamadarepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B6332D0-9BC5-4DB0-9A54-6F50ACAD4160}|ApiCatalogoProdutos\\ApiCatalogoProdutos.csproj|solutionrelative:apicatalogoprodutos\\controllers\\produtoscontrollertestescamadarepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B6332D0-9BC5-4DB0-9A54-6F50ACAD4160}|ApiCatalogoProdutos\\ApiCatalogoProdutos.csproj|c:\\users\\gabriel rodrigues\\desktop\\arquivos\\cursos\\estudos .net\\apicatalogoprodutos\\apicatalogoprodutos\\repositorios\\icategoriaprodutorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B6332D0-9BC5-4DB0-9A54-6F50ACAD4160}|ApiCatalogoProdutos\\ApiCatalogoProdutos.csproj|solutionrelative:apicatalogoprodutos\\repositorios\\icategoriaprodutorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B6332D0-9BC5-4DB0-9A54-6F50ACAD4160}|ApiCatalogoProdutos\\ApiCatalogoProdutos.csproj|c:\\users\\gabriel rodrigues\\desktop\\arquivos\\cursos\\estudos .net\\apicatalogoprodutos\\apicatalogoprodutos\\repositorios\\categoriarepositorionovo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B6332D0-9BC5-4DB0-9A54-6F50ACAD4160}|ApiCatalogoProdutos\\ApiCatalogoProdutos.csproj|solutionrelative:apicatalogoprodutos\\repositorios\\categoriarepositorionovo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B6332D0-9BC5-4DB0-9A54-6F50ACAD4160}|ApiCatalogoProdutos\\ApiCatalogoProdutos.csproj|c:\\users\\gabriel rodrigues\\desktop\\arquivos\\cursos\\estudos .net\\apicatalogoprodutos\\apicatalogoprodutos\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B6332D0-9BC5-4DB0-9A54-6F50ACAD4160}|ApiCatalogoProdutos\\ApiCatalogoProdutos.csproj|solutionrelative:apicatalogoprodutos\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B6332D0-9BC5-4DB0-9A54-6F50ACAD4160}|ApiCatalogoProdutos\\ApiCatalogoProdutos.csproj|c:\\users\\gabriel rodrigues\\desktop\\arquivos\\cursos\\estudos .net\\apicatalogoprodutos\\apicatalogoprodutos\\repositorios\\iprodutorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B6332D0-9BC5-4DB0-9A54-6F50ACAD4160}|ApiCatalogoProdutos\\ApiCatalogoProdutos.csproj|solutionrelative:apicatalogoprodutos\\repositorios\\iprodutorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B6332D0-9BC5-4DB0-9A54-6F50ACAD4160}|ApiCatalogoProdutos\\ApiCatalogoProdutos.csproj|c:\\users\\gabriel rodrigues\\desktop\\arquivos\\cursos\\estudos .net\\apicatalogoprodutos\\apicatalogoprodutos\\controllers\\categoriacontrollertestescamadarepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B6332D0-9BC5-4DB0-9A54-6F50ACAD4160}|ApiCatalogoProdutos\\ApiCatalogoProdutos.csproj|solutionrelative:apicatalogoprodutos\\controllers\\categoriacontrollertestescamadarepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B6332D0-9BC5-4DB0-9A54-6F50ACAD4160}|ApiCatalogoProdutos\\ApiCatalogoProdutos.csproj|c:\\users\\gabriel rodrigues\\desktop\\arquivos\\cursos\\estudos .net\\apicatalogoprodutos\\apicatalogoprodutos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B6332D0-9BC5-4DB0-9A54-6F50ACAD4160}|ApiCatalogoProdutos\\ApiCatalogoProdutos.csproj|solutionrelative:apicatalogoprodutos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B6332D0-9BC5-4DB0-9A54-6F50ACAD4160}|ApiCatalogoProdutos\\ApiCatalogoProdutos.csproj|c:\\users\\gabriel rodrigues\\desktop\\arquivos\\cursos\\estudos .net\\apicatalogoprodutos\\apicatalogoprodutos\\utils\\converterlistacategoriaemlistacategoriadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B6332D0-9BC5-4DB0-9A54-6F50ACAD4160}|ApiCatalogoProdutos\\ApiCatalogoProdutos.csproj|solutionrelative:apicatalogoprodutos\\utils\\converterlistacategoriaemlistacategoriadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B6332D0-9BC5-4DB0-9A54-6F50ACAD4160}|ApiCatalogoProdutos\\ApiCatalogoProdutos.csproj|c:\\users\\gabriel rodrigues\\desktop\\arquivos\\cursos\\estudos .net\\apicatalogoprodutos\\apicatalogoprodutos\\dto\\categoriadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B6332D0-9BC5-4DB0-9A54-6F50ACAD4160}|ApiCatalogoProdutos\\ApiCatalogoProdutos.csproj|solutionrelative:apicatalogoprodutos\\dto\\categoriadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B6332D0-9BC5-4DB0-9A54-6F50ACAD4160}|ApiCatalogoProdutos\\ApiCatalogoProdutos.csproj|c:\\users\\gabriel rodrigues\\desktop\\arquivos\\cursos\\estudos .net\\apicatalogoprodutos\\apicatalogoprodutos\\utils\\iconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B6332D0-9BC5-4DB0-9A54-6F50ACAD4160}|ApiCatalogoProdutos\\ApiCatalogoProdutos.csproj|solutionrelative:apicatalogoprodutos\\utils\\iconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B6332D0-9BC5-4DB0-9A54-6F50ACAD4160}|ApiCatalogoProdutos\\ApiCatalogoProdutos.csproj|c:\\users\\gabriel rodrigues\\desktop\\arquivos\\cursos\\estudos .net\\apicatalogoprodutos\\apicatalogoprodutos\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B6332D0-9BC5-4DB0-9A54-6F50ACAD4160}|ApiCatalogoProdutos\\ApiCatalogoProdutos.csproj|solutionrelative:apicatalogoprodutos\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B6332D0-9BC5-4DB0-9A54-6F50ACAD4160}|ApiCatalogoProdutos\\ApiCatalogoProdutos.csproj|c:\\users\\gabriel rodrigues\\desktop\\arquivos\\cursos\\estudos .net\\apicatalogoprodutos\\apicatalogoprodutos\\repositorios\\categoriarepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B6332D0-9BC5-4DB0-9A54-6F50ACAD4160}|ApiCatalogoProdutos\\ApiCatalogoProdutos.csproj|solutionrelative:apicatalogoprodutos\\repositorios\\categoriarepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B6332D0-9BC5-4DB0-9A54-6F50ACAD4160}|ApiCatalogoProdutos\\ApiCatalogoProdutos.csproj|c:\\users\\gabriel rodrigues\\desktop\\arquivos\\cursos\\estudos .net\\apicatalogoprodutos\\apicatalogoprodutos\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3B6332D0-9BC5-4DB0-9A54-6F50ACAD4160}|ApiCatalogoProdutos\\ApiCatalogoProdutos.csproj|solutionrelative:apicatalogoprodutos\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3B6332D0-9BC5-4DB0-9A54-6F50ACAD4160}|ApiCatalogoProdutos\\ApiCatalogoProdutos.csproj|c:\\users\\gabriel rodrigues\\desktop\\arquivos\\cursos\\estudos .net\\apicatalogoprodutos\\apicatalogoprodutos\\atributos\\primeiraletramaiusculaattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,20 +71,8 @@
       "RelativeMoniker": "D:0:0:{3B6332D0-9BC5-4DB0-9A54-6F50ACAD4160}|ApiCatalogoProdutos\\ApiCatalogoProdutos.csproj|solutionrelative:apicatalogoprodutos\\apicatalogoprodutos.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B6332D0-9BC5-4DB0-9A54-6F50ACAD4160}|ApiCatalogoProdutos\\ApiCatalogoProdutos.csproj|c:\\users\\gabriel rodrigues\\desktop\\arquivos\\cursos\\estudos .net\\apicatalogoprodutos\\apicatalogoprodutos\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B6332D0-9BC5-4DB0-9A54-6F50ACAD4160}|ApiCatalogoProdutos\\ApiCatalogoProdutos.csproj|solutionrelative:apicatalogoprodutos\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3B6332D0-9BC5-4DB0-9A54-6F50ACAD4160}|ApiCatalogoProdutos\\ApiCatalogoProdutos.csproj|c:\\users\\gabriel rodrigues\\desktop\\arquivos\\cursos\\estudos .net\\apicatalogoprodutos\\apicatalogoprodutos\\servicos\\produtoservico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3B6332D0-9BC5-4DB0-9A54-6F50ACAD4160}|ApiCatalogoProdutos\\ApiCatalogoProdutos.csproj|solutionrelative:apicatalogoprodutos\\servicos\\produtoservico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B6332D0-9BC5-4DB0-9A54-6F50ACAD4160}|ApiCatalogoProdutos\\ApiCatalogoProdutos.csproj|c:\\users\\gabriel rodrigues\\desktop\\arquivos\\cursos\\estudos .net\\apicatalogoprodutos\\apicatalogoprodutos\\dto\\categoriadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B6332D0-9BC5-4DB0-9A54-6F50ACAD4160}|ApiCatalogoProdutos\\ApiCatalogoProdutos.csproj|solutionrelative:apicatalogoprodutos\\dto\\categoriadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B6332D0-9BC5-4DB0-9A54-6F50ACAD4160}|ApiCatalogoProdutos\\ApiCatalogoProdutos.csproj|c:\\users\\gabriel rodrigues\\desktop\\arquivos\\cursos\\estudos .net\\apicatalogoprodutos\\apicatalogoprodutos\\repositorios\\categoriarepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B6332D0-9BC5-4DB0-9A54-6F50ACAD4160}|ApiCatalogoProdutos\\ApiCatalogoProdutos.csproj|solutionrelative:apicatalogoprodutos\\repositorios\\categoriarepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3B6332D0-9BC5-4DB0-9A54-6F50ACAD4160}|ApiCatalogoProdutos\\ApiCatalogoProdutos.csproj|c:\\users\\gabriel rodrigues\\desktop\\arquivos\\cursos\\estudos .net\\apicatalogoprodutos\\apicatalogoprodutos\\repositorios\\produtorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,10 +83,6 @@
       "RelativeMoniker": "D:0:0:{3B6332D0-9BC5-4DB0-9A54-6F50ACAD4160}|ApiCatalogoProdutos\\ApiCatalogoProdutos.csproj|solutionrelative:apicatalogoprodutos\\dto\\produtocadastrareditardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B6332D0-9BC5-4DB0-9A54-6F50ACAD4160}|ApiCatalogoProdutos\\ApiCatalogoProdutos.csproj|c:\\users\\gabriel rodrigues\\desktop\\arquivos\\cursos\\estudos .net\\apicatalogoprodutos\\apicatalogoprodutos\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B6332D0-9BC5-4DB0-9A54-6F50ACAD4160}|ApiCatalogoProdutos\\ApiCatalogoProdutos.csproj|solutionrelative:apicatalogoprodutos\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3B6332D0-9BC5-4DB0-9A54-6F50ACAD4160}|ApiCatalogoProdutos\\ApiCatalogoProdutos.csproj|c:\\users\\gabriel rodrigues\\desktop\\arquivos\\cursos\\estudos .net\\apicatalogoprodutos\\apicatalogoprodutos\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3B6332D0-9BC5-4DB0-9A54-6F50ACAD4160}|ApiCatalogoProdutos\\ApiCatalogoProdutos.csproj|solutionrelative:apicatalogoprodutos\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -51,20 +91,12 @@
       "RelativeMoniker": "D:0:0:{3B6332D0-9BC5-4DB0-9A54-6F50ACAD4160}|ApiCatalogoProdutos\\ApiCatalogoProdutos.csproj|solutionrelative:apicatalogoprodutos\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B6332D0-9BC5-4DB0-9A54-6F50ACAD4160}|ApiCatalogoProdutos\\ApiCatalogoProdutos.csproj|c:\\users\\gabriel rodrigues\\desktop\\arquivos\\cursos\\estudos .net\\apicatalogoprodutos\\apicatalogoprodutos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B6332D0-9BC5-4DB0-9A54-6F50ACAD4160}|ApiCatalogoProdutos\\ApiCatalogoProdutos.csproj|solutionrelative:apicatalogoprodutos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3B6332D0-9BC5-4DB0-9A54-6F50ACAD4160}|ApiCatalogoProdutos\\ApiCatalogoProdutos.csproj|c:\\users\\gabriel rodrigues\\desktop\\arquivos\\cursos\\estudos .net\\apicatalogoprodutos\\apicatalogoprodutos\\apicatalogoprodutos.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
       "RelativeMoniker": "D:0:0:{3B6332D0-9BC5-4DB0-9A54-6F50ACAD4160}|ApiCatalogoProdutos\\ApiCatalogoProdutos.csproj|solutionrelative:apicatalogoprodutos\\apicatalogoprodutos.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3B6332D0-9BC5-4DB0-9A54-6F50ACAD4160}|ApiCatalogoProdutos\\ApiCatalogoProdutos.csproj|c:\\users\\gabriel rodrigues\\desktop\\arquivos\\cursos\\estudos .net\\apicatalogoprodutos\\apicatalogoprodutos\\utils\\validardadosprodutocadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3B6332D0-9BC5-4DB0-9A54-6F50ACAD4160}|ApiCatalogoProdutos\\ApiCatalogoProdutos.csproj|solutionrelative:apicatalogoprodutos\\utils\\validardadosprodutocadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B6332D0-9BC5-4DB0-9A54-6F50ACAD4160}|ApiCatalogoProdutos\\ApiCatalogoProdutos.csproj|c:\\users\\gabriel rodrigues\\desktop\\arquivos\\cursos\\estudos .net\\apicatalogoprodutos\\apicatalogoprodutos\\utils\\iconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B6332D0-9BC5-4DB0-9A54-6F50ACAD4160}|ApiCatalogoProdutos\\ApiCatalogoProdutos.csproj|solutionrelative:apicatalogoprodutos\\utils\\iconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3B6332D0-9BC5-4DB0-9A54-6F50ACAD4160}|ApiCatalogoProdutos\\ApiCatalogoProdutos.csproj|c:\\users\\gabriel rodrigues\\desktop\\arquivos\\cursos\\estudos .net\\apicatalogoprodutos\\apicatalogoprodutos\\utils\\ivalidador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -118,41 +150,99 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{7f40df72-066b-4810-a08b-c0fbed76c948}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PrimeiraLetraMaiusculaAttribute.cs",
-              "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\ApiCatalogoProdutos\\ApiCatalogoProdutos\\Atributos\\PrimeiraLetraMaiusculaAttribute.cs",
-              "RelativeDocumentMoniker": "ApiCatalogoProdutos\\Atributos\\PrimeiraLetraMaiusculaAttribute.cs",
-              "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\ApiCatalogoProdutos\\ApiCatalogoProdutos\\Atributos\\PrimeiraLetraMaiusculaAttribute.cs",
-              "RelativeToolTip": "ApiCatalogoProdutos\\Atributos\\PrimeiraLetraMaiusculaAttribute.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "ProdutosControllerTestesCamadaRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\ApiCatalogoProdutos\\ApiCatalogoProdutos\\Controllers\\ProdutosControllerTestesCamadaRepositorio.cs",
+              "RelativeDocumentMoniker": "ApiCatalogoProdutos\\Controllers\\ProdutosControllerTestesCamadaRepositorio.cs",
+              "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\ApiCatalogoProdutos\\ApiCatalogoProdutos\\Controllers\\ProdutosControllerTestesCamadaRepositorio.cs",
+              "RelativeToolTip": "ApiCatalogoProdutos\\Controllers\\ProdutosControllerTestesCamadaRepositorio.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAqwCgAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T17:18:27.582Z"
+              "WhenOpened": "2024-12-18T20:32:19.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CategoriaControllerTestesCamadaRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\ApiCatalogoProdutos\\ApiCatalogoProdutos\\Controllers\\CategoriaControllerTestesCamadaRepositorio.cs",
+              "RelativeDocumentMoniker": "ApiCatalogoProdutos\\Controllers\\CategoriaControllerTestesCamadaRepositorio.cs",
+              "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\ApiCatalogoProdutos\\ApiCatalogoProdutos\\Controllers\\CategoriaControllerTestesCamadaRepositorio.cs",
+              "RelativeToolTip": "ApiCatalogoProdutos\\Controllers\\CategoriaControllerTestesCamadaRepositorio.cs",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAuwIcAAAB2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T19:51:03.773Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "CategoriasController.cs",
-              "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\ApiCatalogoProdutos\\ApiCatalogoProdutos\\Controllers\\CategoriasController.cs",
-              "RelativeDocumentMoniker": "ApiCatalogoProdutos\\Controllers\\CategoriasController.cs",
-              "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\ApiCatalogoProdutos\\ApiCatalogoProdutos\\Controllers\\CategoriasController.cs",
-              "RelativeToolTip": "ApiCatalogoProdutos\\Controllers\\CategoriasController.cs",
-              "ViewState": "AgIAAFAAAAAAAAAAAAAAwF4AAAAAAAAAAAAAAA==",
+              "Title": "ICategoriaProdutoRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\ApiCatalogoProdutos\\ApiCatalogoProdutos\\Repositorios\\ICategoriaProdutoRepositorio.cs",
+              "RelativeDocumentMoniker": "ApiCatalogoProdutos\\Repositorios\\ICategoriaProdutoRepositorio.cs",
+              "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\ApiCatalogoProdutos\\ApiCatalogoProdutos\\Repositorios\\ICategoriaProdutoRepositorio.cs",
+              "RelativeToolTip": "ApiCatalogoProdutos\\Repositorios\\ICategoriaProdutoRepositorio.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAgwBMAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T12:47:34.221Z"
+              "WhenOpened": "2024-12-17T19:22:59.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CategoriaRepositorioNovo.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\ApiCatalogoProdutos\\ApiCatalogoProdutos\\Repositorios\\CategoriaRepositorioNovo.cs",
+              "RelativeDocumentMoniker": "ApiCatalogoProdutos\\Repositorios\\CategoriaRepositorioNovo.cs",
+              "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\ApiCatalogoProdutos\\ApiCatalogoProdutos\\Repositorios\\CategoriaRepositorioNovo.cs",
+              "RelativeToolTip": "ApiCatalogoProdutos\\Repositorios\\CategoriaRepositorioNovo.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAASwFkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T19:25:19.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IProdutoRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\ApiCatalogoProdutos\\ApiCatalogoProdutos\\Repositorios\\IProdutoRepositorio.cs",
+              "RelativeDocumentMoniker": "ApiCatalogoProdutos\\Repositorios\\IProdutoRepositorio.cs",
+              "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\ApiCatalogoProdutos\\ApiCatalogoProdutos\\Repositorios\\IProdutoRepositorio.cs",
+              "RelativeToolTip": "ApiCatalogoProdutos\\Repositorios\\IProdutoRepositorio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T13:05:24.356Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ProdutoRepositorioNovo.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\ApiCatalogoProdutos\\ApiCatalogoProdutos\\Repositorios\\ProdutoRepositorioNovo.cs",
+              "RelativeDocumentMoniker": "ApiCatalogoProdutos\\Repositorios\\ProdutoRepositorioNovo.cs",
+              "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\ApiCatalogoProdutos\\ApiCatalogoProdutos\\Repositorios\\ProdutoRepositorioNovo.cs",
+              "RelativeToolTip": "ApiCatalogoProdutos\\Repositorios\\ProdutoRepositorioNovo.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAASwFMAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T13:07:21.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ProdutoDTO.cs",
               "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\ApiCatalogoProdutos\\ApiCatalogoProdutos\\DTO\\ProdutoDTO.cs",
               "RelativeDocumentMoniker": "ApiCatalogoProdutos\\DTO\\ProdutoDTO.cs",
               "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\ApiCatalogoProdutos\\ApiCatalogoProdutos\\DTO\\ProdutoDTO.cs",
               "RelativeToolTip": "ApiCatalogoProdutos\\DTO\\ProdutoDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABAAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAwDMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-04T13:24:38.633Z",
               "EditorCaption": ""
@@ -160,18 +250,96 @@
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "ProdutoCadastrarEditarDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\ApiCatalogoProdutos\\ApiCatalogoProdutos\\DTO\\ProdutoCadastrarEditarDTO.cs",
-              "RelativeDocumentMoniker": "ApiCatalogoProdutos\\DTO\\ProdutoCadastrarEditarDTO.cs",
-              "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\ApiCatalogoProdutos\\ApiCatalogoProdutos\\DTO\\ProdutoCadastrarEditarDTO.cs",
-              "RelativeToolTip": "ApiCatalogoProdutos\\DTO\\ProdutoCadastrarEditarDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\ApiCatalogoProdutos\\ApiCatalogoProdutos\\Program.cs",
+              "RelativeDocumentMoniker": "ApiCatalogoProdutos\\Program.cs",
+              "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\ApiCatalogoProdutos\\ApiCatalogoProdutos\\Program.cs",
+              "RelativeToolTip": "ApiCatalogoProdutos\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T16:59:43.549Z"
+              "WhenOpened": "2024-12-05T15:02:17.658Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
+              "Title": "ProdutosController.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\ApiCatalogoProdutos\\ApiCatalogoProdutos\\Controllers\\ProdutosController.cs",
+              "RelativeDocumentMoniker": "ApiCatalogoProdutos\\Controllers\\ProdutosController.cs",
+              "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\ApiCatalogoProdutos\\ApiCatalogoProdutos\\Controllers\\ProdutosController.cs",
+              "RelativeToolTip": "ApiCatalogoProdutos\\Controllers\\ProdutosController.cs",
+              "ViewState": "AgIAACoBAAAAAAAAAAAxwD4BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T12:47:35.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ConverterListaCategoriaEmListaCategoriaDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\ApiCatalogoProdutos\\ApiCatalogoProdutos\\Utils\\ConverterListaCategoriaEmListaCategoriaDTO.cs",
+              "RelativeDocumentMoniker": "ApiCatalogoProdutos\\Utils\\ConverterListaCategoriaEmListaCategoriaDTO.cs",
+              "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\ApiCatalogoProdutos\\ApiCatalogoProdutos\\Utils\\ConverterListaCategoriaEmListaCategoriaDTO.cs",
+              "RelativeToolTip": "ApiCatalogoProdutos\\Utils\\ConverterListaCategoriaEmListaCategoriaDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T17:55:11.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CategoriaDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\ApiCatalogoProdutos\\ApiCatalogoProdutos\\DTO\\CategoriaDTO.cs",
+              "RelativeDocumentMoniker": "ApiCatalogoProdutos\\DTO\\CategoriaDTO.cs",
+              "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\ApiCatalogoProdutos\\ApiCatalogoProdutos\\DTO\\CategoriaDTO.cs",
+              "RelativeToolTip": "ApiCatalogoProdutos\\DTO\\CategoriaDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBEAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T18:32:11.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IConverter.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\ApiCatalogoProdutos\\ApiCatalogoProdutos\\Utils\\IConverter.cs",
+              "RelativeDocumentMoniker": "ApiCatalogoProdutos\\Utils\\IConverter.cs",
+              "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\ApiCatalogoProdutos\\ApiCatalogoProdutos\\Utils\\IConverter.cs",
+              "RelativeToolTip": "ApiCatalogoProdutos\\Utils\\IConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T20:21:58.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CategoriasController.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\ApiCatalogoProdutos\\ApiCatalogoProdutos\\Controllers\\CategoriasController.cs",
+              "RelativeDocumentMoniker": "ApiCatalogoProdutos\\Controllers\\CategoriasController.cs",
+              "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\ApiCatalogoProdutos\\ApiCatalogoProdutos\\Controllers\\CategoriasController.cs",
+              "RelativeToolTip": "ApiCatalogoProdutos\\Controllers\\CategoriasController.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAuwAkAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T12:47:34.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\ApiCatalogoProdutos\\ApiCatalogoProdutos\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "ApiCatalogoProdutos\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\ApiCatalogoProdutos\\ApiCatalogoProdutos\\appsettings.Development.json",
+              "RelativeToolTip": "ApiCatalogoProdutos\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-17T18:22:25.472Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "ProdutoServico.cs",
               "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\ApiCatalogoProdutos\\ApiCatalogoProdutos\\Servicos\\ProdutoServico.cs",
               "RelativeDocumentMoniker": "ApiCatalogoProdutos\\Servicos\\ProdutoServico.cs",
@@ -183,7 +351,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 19,
+              "Title": "ProdutoCadastrarEditarDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\ApiCatalogoProdutos\\ApiCatalogoProdutos\\DTO\\ProdutoCadastrarEditarDTO.cs",
+              "RelativeDocumentMoniker": "ApiCatalogoProdutos\\DTO\\ProdutoCadastrarEditarDTO.cs",
+              "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\ApiCatalogoProdutos\\ApiCatalogoProdutos\\DTO\\ProdutoCadastrarEditarDTO.cs",
+              "RelativeToolTip": "ApiCatalogoProdutos\\DTO\\ProdutoCadastrarEditarDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T16:59:43.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "ProdutoRepositorio.cs",
               "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\ApiCatalogoProdutos\\ApiCatalogoProdutos\\Repositorios\\ProdutoRepositorio.cs",
               "RelativeDocumentMoniker": "ApiCatalogoProdutos\\Repositorios\\ProdutoRepositorio.cs",
@@ -195,31 +375,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 13,
               "Title": "CategoriaRepositorio.cs",
               "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\ApiCatalogoProdutos\\ApiCatalogoProdutos\\Repositorios\\CategoriaRepositorio.cs",
               "RelativeDocumentMoniker": "ApiCatalogoProdutos\\Repositorios\\CategoriaRepositorio.cs",
               "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\ApiCatalogoProdutos\\ApiCatalogoProdutos\\Repositorios\\CategoriaRepositorio.cs",
               "RelativeToolTip": "ApiCatalogoProdutos\\Repositorios\\CategoriaRepositorio.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAlwGMAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-04T12:33:19.878Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CategoriaDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\ApiCatalogoProdutos\\ApiCatalogoProdutos\\DTO\\CategoriaDTO.cs",
-              "RelativeDocumentMoniker": "ApiCatalogoProdutos\\DTO\\CategoriaDTO.cs",
-              "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\ApiCatalogoProdutos\\ApiCatalogoProdutos\\DTO\\CategoriaDTO.cs",
-              "RelativeToolTip": "ApiCatalogoProdutos\\DTO\\CategoriaDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABJAAAAAAAAAA==",
+              "DocumentIndex": 15,
+              "Title": "PrimeiraLetraMaiusculaAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\ApiCatalogoProdutos\\ApiCatalogoProdutos\\Atributos\\PrimeiraLetraMaiusculaAttribute.cs",
+              "RelativeDocumentMoniker": "ApiCatalogoProdutos\\Atributos\\PrimeiraLetraMaiusculaAttribute.cs",
+              "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\ApiCatalogoProdutos\\ApiCatalogoProdutos\\Atributos\\PrimeiraLetraMaiusculaAttribute.cs",
+              "RelativeToolTip": "ApiCatalogoProdutos\\Atributos\\PrimeiraLetraMaiusculaAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T18:32:11.24Z"
+              "WhenOpened": "2024-12-11T17:18:27.582Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 16,
               "Title": "ApiCatalogoProdutos.csproj",
               "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\ApiCatalogoProdutos\\ApiCatalogoProdutos\\ApiCatalogoProdutos.csproj",
               "RelativeDocumentMoniker": "ApiCatalogoProdutos\\ApiCatalogoProdutos.csproj",
@@ -231,19 +411,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ProdutosController.cs",
-              "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\ApiCatalogoProdutos\\ApiCatalogoProdutos\\Controllers\\ProdutosController.cs",
-              "RelativeDocumentMoniker": "ApiCatalogoProdutos\\Controllers\\ProdutosController.cs",
-              "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\ApiCatalogoProdutos\\ApiCatalogoProdutos\\Controllers\\ProdutosController.cs",
-              "RelativeToolTip": "ApiCatalogoProdutos\\Controllers\\ProdutosController.cs",
-              "ViewState": "AgIAAAIBAAAAAAAAAAAIwBIBAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T12:47:35.756Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 20,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\ApiCatalogoProdutos\\ApiCatalogoProdutos\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "ApiCatalogoProdutos\\Controllers\\WeatherForecastController.cs",
@@ -255,7 +423,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 21,
               "Title": "WeatherForecast.cs",
               "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\ApiCatalogoProdutos\\ApiCatalogoProdutos\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "ApiCatalogoProdutos\\WeatherForecast.cs",
@@ -267,19 +435,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\ApiCatalogoProdutos\\ApiCatalogoProdutos\\Program.cs",
-              "RelativeDocumentMoniker": "ApiCatalogoProdutos\\Program.cs",
-              "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\ApiCatalogoProdutos\\ApiCatalogoProdutos\\Program.cs",
-              "RelativeToolTip": "ApiCatalogoProdutos\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACIAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T15:02:17.658Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 22,
               "Title": "ApiCatalogoProdutos.http",
               "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\ApiCatalogoProdutos\\ApiCatalogoProdutos\\ApiCatalogoProdutos.http",
               "RelativeDocumentMoniker": "ApiCatalogoProdutos\\ApiCatalogoProdutos.http",
@@ -291,19 +447,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "IConverter.cs",
-              "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\ApiCatalogoProdutos\\ApiCatalogoProdutos\\Utils\\IConverter.cs",
-              "RelativeDocumentMoniker": "ApiCatalogoProdutos\\Utils\\IConverter.cs",
-              "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\ApiCatalogoProdutos\\ApiCatalogoProdutos\\Utils\\IConverter.cs",
-              "RelativeToolTip": "ApiCatalogoProdutos\\Utils\\IConverter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T20:21:58.947Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 24,
               "Title": "IValidador.cs",
               "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\ApiCatalogoProdutos\\ApiCatalogoProdutos\\Utils\\IValidador.cs",
               "RelativeDocumentMoniker": "ApiCatalogoProdutos\\Utils\\IValidador.cs",
@@ -315,7 +459,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 25,
               "Title": "ConverterListaProdutosBancoDadosListaProdutoDTO.cs",
               "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\ApiCatalogoProdutos\\ApiCatalogoProdutos\\Utils\\ConverterListaProdutosBancoDadosListaProdutoDTO.cs",
               "RelativeDocumentMoniker": "ApiCatalogoProdutos\\Utils\\ConverterListaProdutosBancoDadosListaProdutoDTO.cs",
@@ -327,7 +471,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 26,
               "Title": "Servico.cs",
               "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\ApiCatalogoProdutos\\ApiCatalogoProdutos\\Servicos\\Servico.cs",
               "RelativeDocumentMoniker": "ApiCatalogoProdutos\\Servicos\\Servico.cs",
@@ -339,7 +483,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 27,
               "Title": "CategoriaServico.cs",
               "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\ApiCatalogoProdutos\\ApiCatalogoProdutos\\Servicos\\CategoriaServico.cs",
               "RelativeDocumentMoniker": "ApiCatalogoProdutos\\Servicos\\CategoriaServico.cs",
@@ -351,7 +495,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 23,
               "Title": "ValidarDadosProdutoCadastro.cs",
               "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\ApiCatalogoProdutos\\ApiCatalogoProdutos\\Utils\\ValidarDadosProdutoCadastro.cs",
               "RelativeDocumentMoniker": "ApiCatalogoProdutos\\Utils\\ValidarDadosProdutoCadastro.cs",
@@ -363,7 +507,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 29,
               "Title": "Produto.cs",
               "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\ApiCatalogoProdutos\\ApiCatalogoProdutos\\Models\\Produto.cs",
               "RelativeDocumentMoniker": "ApiCatalogoProdutos\\Models\\Produto.cs",
@@ -375,7 +519,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 28,
               "Title": "RespostaHttp.cs",
               "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\ApiCatalogoProdutos\\ApiCatalogoProdutos\\DTO\\RespostaHttp.cs",
               "RelativeDocumentMoniker": "ApiCatalogoProdutos\\DTO\\RespostaHttp.cs",
@@ -387,7 +531,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 30,
               "Title": "Repositorio.cs",
               "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\ApiCatalogoProdutos\\ApiCatalogoProdutos\\Repositorios\\Repositorio.cs",
               "RelativeDocumentMoniker": "ApiCatalogoProdutos\\Repositorios\\Repositorio.cs",
@@ -399,7 +543,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 31,
               "Title": "Categoria.cs",
               "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\ApiCatalogoProdutos\\ApiCatalogoProdutos\\Models\\Categoria.cs",
               "RelativeDocumentMoniker": "ApiCatalogoProdutos\\Models\\Categoria.cs",
@@ -411,7 +555,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 32,
               "Title": "20241203201815_AdicionarProdutosTesteMigration.cs",
               "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\ApiCatalogoProdutos\\ApiCatalogoProdutos\\Migrations\\20241203201815_AdicionarProdutosTesteMigration.cs",
               "RelativeDocumentMoniker": "ApiCatalogoProdutos\\Migrations\\20241203201815_AdicionarProdutosTesteMigration.cs",
@@ -423,7 +567,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 34,
               "Title": "AppDbContextoModelSnapshot.cs",
               "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\ApiCatalogoProdutos\\ApiCatalogoProdutos\\Migrations\\AppDbContextoModelSnapshot.cs",
               "RelativeDocumentMoniker": "ApiCatalogoProdutos\\Migrations\\AppDbContextoModelSnapshot.cs",
@@ -435,7 +579,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 33,
               "Title": "20241203200217_AdicionarCategoriasTesteMigration.cs",
               "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\ApiCatalogoProdutos\\ApiCatalogoProdutos\\Migrations\\20241203200217_AdicionarCategoriasTesteMigration.cs",
               "RelativeDocumentMoniker": "ApiCatalogoProdutos\\Migrations\\20241203200217_AdicionarCategoriasTesteMigration.cs",

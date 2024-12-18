@@ -1,4 +1,5 @@
 using ApiCatalogoProdutos.Contexto;
+using ApiCatalogoProdutos.Repositorios;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -16,6 +17,10 @@ builder.Services.AddDbContext<AppDbContexto>(opcoes =>
 {
     opcoes.UseSqlServer(stringConexaoBancoSqlServer);
 });
+
+// implementar aqui as injeções de dependência do projeto
+builder.Services.AddScoped<ICategoriaProdutoRepositorio, CategoriaRepositorioNovo>();
+builder.Services.AddScoped<IProdutoRepositorio, ProdutoRepositorioNovo>();
 
 var app = builder.Build();
 
@@ -35,10 +40,15 @@ if (!app.Environment.IsDevelopment())
     // app.UseExceptionHandler("/Error");
 }
 
+// é na classe Program por meio desse objeto app que eu defino os middlewarees da aplicação
+
+// middlewaree que define que as requisições serão https
 app.UseHttpsRedirection();
 
+// middlewaree que define que posso utilizar autorização
 app.UseAuthorization();
 
+// middlewaree que mapeia as minhas controllers
 app.MapControllers();
 
 app.Run();
