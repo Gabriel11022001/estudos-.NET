@@ -21,6 +21,7 @@ builder.Services.AddDbContext<AppDbContexto>(opcoes =>
 // implementar aqui as injeções de dependência do projeto
 builder.Services.AddScoped<ICategoriaProdutoRepositorio, CategoriaRepositorioNovo>();
 builder.Services.AddScoped<IProdutoRepositorio, ProdutoRepositorioNovo>();
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
 var app = builder.Build();
 

@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\Exerc\u00EDcios LeetCode\\Exercicios\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C2B25667-4F78-4DBB-93F7-BC80593454F6}|Exercicios\\Exercicios.csproj|c:\\users\\gabriel rodrigues\\desktop\\arquivos\\cursos\\estudos .net\\exerc\u00EDcios leetcode\\exercicios\\exercicios\\classes\\exercicio9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2B25667-4F78-4DBB-93F7-BC80593454F6}|Exercicios\\Exercicios.csproj|solutionrelative:exercicios\\classes\\exercicio9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2B25667-4F78-4DBB-93F7-BC80593454F6}|Exercicios\\Exercicios.csproj|c:\\users\\gabriel rodrigues\\desktop\\arquivos\\cursos\\estudos .net\\exerc\u00EDcios leetcode\\exercicios\\exercicios\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2B25667-4F78-4DBB-93F7-BC80593454F6}|Exercicios\\Exercicios.csproj|solutionrelative:exercicios\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2B25667-4F78-4DBB-93F7-BC80593454F6}|Exercicios\\Exercicios.csproj|c:\\users\\gabriel rodrigues\\desktop\\arquivos\\cursos\\estudos .net\\exerc\u00EDcios leetcode\\exercicios\\exercicios\\classes\\exercicio1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2B25667-4F78-4DBB-93F7-BC80593454F6}|Exercicios\\Exercicios.csproj|solutionrelative:exercicios\\classes\\exercicio1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2B25667-4F78-4DBB-93F7-BC80593454F6}|Exercicios\\Exercicios.csproj|c:\\users\\gabriel rodrigues\\desktop\\arquivos\\cursos\\estudos .net\\exerc\u00EDcios leetcode\\exercicios\\exercicios\\classes\\iexercicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2B25667-4F78-4DBB-93F7-BC80593454F6}|Exercicios\\Exercicios.csproj|solutionrelative:exercicios\\classes\\iexercicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{7f40df72-066b-4810-a08b-c0fbed76c948}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Exercicio9.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\Exerc\u00EDcios LeetCode\\Exercicios\\Exercicios\\Classes\\Exercicio9.cs",
+              "RelativeDocumentMoniker": "Exercicios\\Classes\\Exercicio9.cs",
+              "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\Exerc\u00EDcios LeetCode\\Exercicios\\Exercicios\\Classes\\Exercicio9.cs",
+              "RelativeToolTip": "Exercicios\\Classes\\Exercicio9.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAzwA0AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T23:45:00.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Exercicio1.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\Exerc\u00EDcios LeetCode\\Exercicios\\Exercicios\\Classes\\Exercicio1.cs",
+              "RelativeDocumentMoniker": "Exercicios\\Classes\\Exercicio1.cs",
+              "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\Exerc\u00EDcios LeetCode\\Exercicios\\Exercicios\\Classes\\Exercicio1.cs",
+              "RelativeToolTip": "Exercicios\\Classes\\Exercicio1.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAowDAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T23:25:35.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IExercicio.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\Exerc\u00EDcios LeetCode\\Exercicios\\Exercicios\\Classes\\IExercicio.cs",
+              "RelativeDocumentMoniker": "Exercicios\\Classes\\IExercicio.cs",
+              "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\Exerc\u00EDcios LeetCode\\Exercicios\\Exercicios\\Classes\\IExercicio.cs",
+              "RelativeToolTip": "Exercicios\\Classes\\IExercicio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T23:25:10.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\Exerc\u00EDcios LeetCode\\Exercicios\\Exercicios\\Program.cs",
+              "RelativeDocumentMoniker": "Exercicios\\Program.cs",
+              "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\Exerc\u00EDcios LeetCode\\Exercicios\\Exercicios\\Program.cs",
+              "RelativeToolTip": "Exercicios\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T23:24:00.744Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

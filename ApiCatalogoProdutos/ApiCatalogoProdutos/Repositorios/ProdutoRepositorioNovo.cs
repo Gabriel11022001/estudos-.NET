@@ -33,7 +33,7 @@ namespace ApiCatalogoProdutos.Repositorios
 
         public async Task<List<Produto>> BuscarTodosProdutos()
         {
-            var produtos = await this._contexto.Produtos.ToListAsync();
+            var produtos = await this._contexto.Produtos.Include(p => p.Categoria).ToListAsync();
 
             return produtos;
         }
@@ -88,5 +88,12 @@ namespace ApiCatalogoProdutos.Repositorios
                 .ToListAsync();
         }
 
+        public async Task<Produto> BuscarProdutoPeloNome(string nomeProdutoConsultar)
+        {
+
+            return await this._contexto.Produtos
+                .Include(p => p.Categoria)
+                .FirstOrDefaultAsync(p => p.Nome.Equals(nomeProdutoConsultar.Trim()));
+        }
     }
 }

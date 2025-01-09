@@ -186,6 +186,32 @@
     ]
   },
   {
+    "ContainingType": "ApiCatalogoProdutos.Controllers.CategoriaUnitOfWorkController",
+    "Method": "CadastrarCategoria",
+    "RelativePath": "api/CategoriaUnitOfWork",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoriaCadastrar",
+        "Type": "ApiCatalogoProdutos.Models.Categoria",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ApiCatalogoProdutos.Models.Categoria",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "ApiCatalogoProdutos.Controllers.ProdutosController",
     "Method": "BuscarProdutosAsync",
     "RelativePath": "api/Produtos/buscar-produtos-async",
@@ -382,6 +408,72 @@
     "ReturnTypes": [
       {
         "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiCatalogoProdutos.Controllers.ProdutosControllerTestesCamadaRepositorio",
+    "Method": "CadastrarProduto",
+    "RelativePath": "api/ProdutosControllerTestesCamadaRepositorio",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "produtoCadastrarEditarDTO",
+        "Type": "ApiCatalogoProdutos.DTO.ProdutoCadastrarEditarDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ApiCatalogoProdutos.DTO.ProdutoCadastrarEditarDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiCatalogoProdutos.Controllers.ProdutosControllerTestesCamadaRepositorio",
+    "Method": "BuscarTodosProdutos",
+    "RelativePath": "api/ProdutosControllerTestesCamadaRepositorio",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[ApiCatalogoProdutos.DTO.ProdutoDTO, ApiCatalogoProdutos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiCatalogoProdutos.Controllers.ProdutosControllerTestesCamadaRepositorio",
+    "Method": "BuscarProdutosAtivos",
+    "RelativePath": "api/ProdutosControllerTestesCamadaRepositorio/buscar-ativos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[ApiCatalogoProdutos.DTO.ProdutoDTO, ApiCatalogoProdutos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",

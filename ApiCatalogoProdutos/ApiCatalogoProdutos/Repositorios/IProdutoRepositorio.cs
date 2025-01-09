@@ -21,5 +21,7 @@ namespace ApiCatalogoProdutos.Repositorios
 
         Task<List<Produto>> BuscarProdutosPelaCategoria(int idCategoria);
 
+        Task<Produto> BuscarProdutoPeloNome(String nomeProdutoConsultar);
+
     }
 }
