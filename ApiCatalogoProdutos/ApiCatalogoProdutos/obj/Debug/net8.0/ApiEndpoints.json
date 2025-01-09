@@ -186,6 +186,130 @@
     ]
   },
   {
+    "ContainingType": "ApiCatalogoProdutos.Controllers.CategoriaTestesDTOController",
+    "Method": "CadastrarCategoria",
+    "RelativePath": "api/CategoriaTestesDTO",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoriaDTOTesteCadastrar",
+        "Type": "ApiCatalogoProdutos.DTO.CategoriaDTOTeste",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ApiCatalogoProdutos.DTO.CategoriaDTOTeste",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiCatalogoProdutos.Controllers.CategoriaTestesDTOController",
+    "Method": "EditarCategoria",
+    "RelativePath": "api/CategoriaTestesDTO",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoriaDTOTeste",
+        "Type": "ApiCatalogoProdutos.DTO.CategoriaDTOTeste",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ApiCatalogoProdutos.DTO.CategoriaDTOTeste",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiCatalogoProdutos.Controllers.CategoriaTestesDTOController",
+    "Method": "BuscarTodasCategorias",
+    "RelativePath": "api/CategoriaTestesDTO",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[ApiCatalogoProdutos.DTO.CategoriaDTOTeste, ApiCatalogoProdutos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiCatalogoProdutos.Controllers.CategoriaTestesDTOController",
+    "Method": "BuscarCategoriaPeloId",
+    "RelativePath": "api/CategoriaTestesDTO/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ApiCatalogoProdutos.DTO.CategoriaDTOTeste",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiCatalogoProdutos.Controllers.CategoriaTestesDTOController",
+    "Method": "BuscarCategoriaPeloNome",
+    "RelativePath": "api/CategoriaTestesDTO/buscar-categoria-pelo-nome/{nomeCategoriaConsultar}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nomeCategoriaConsultar",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ApiCatalogoProdutos.DTO.CategoriaDTOTeste",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "ApiCatalogoProdutos.Controllers.CategoriaUnitOfWorkController",
     "Method": "CadastrarCategoria",
     "RelativePath": "api/CategoriaUnitOfWork",
