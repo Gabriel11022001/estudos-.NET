@@ -1,6 +1,7 @@
 ﻿using ApiCatalogoProdutos.Contexto;
 using ApiCatalogoProdutos.DTO;
 using ApiCatalogoProdutos.Models;
+using ApiCatalogoProdutos.Utils;
 using Microsoft.EntityFrameworkCore;
 
 namespace ApiCatalogoProdutos.Repositorios
@@ -98,6 +99,17 @@ namespace ApiCatalogoProdutos.Repositorios
             }
 
             return new CategoriaDTO(categoria);
+        }
+
+        // buscar as categorias de forma paginada
+        public List<Categoria> BuscarCategoriasPaginado(CategoriasParametros categoriasParametros)
+        {
+
+            return this._contexto.Categorias
+                .OrderBy(c => c.Nome)
+                .Skip((categoriasParametros.PaginaAtual - 1) * categoriasParametros.TamanhoPagina)
+                .Take(categoriasParametros.TamanhoPagina)
+                .ToList();
         }
 
     }

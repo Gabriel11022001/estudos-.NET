@@ -320,5 +320,72 @@ namespace ApiCatalogoProdutos.Controllers
             return Ok();
         }
 
+        [ HttpGet("filtrar-pelo-preco") ]
+        public ActionResult<List<Produto>> BuscarProdutosFiltroPaginado([ FromQuery ] ProdutoFiltro produtoFiltro)
+        {
+
+            try
+            {
+                var produtos = new List<Produto>();
+
+                if (produtoFiltro.PrecoCriterio.Equals("maior"))
+                {
+                    produtos = this._contextoTeste.Produtos.OrderBy(p => p.Nome)
+                        .Skip((produtoFiltro.PaginaAtual - 1) * produtoFiltro.MaximoProdutosPorPagina)
+                        .Take(produtoFiltro.MaximoProdutosPorPagina)
+                        .Where(p => p.PrecoVenda >= produtoFiltro.PrecoFiltro)
+                        .ToList();
+                }
+                else if (produtoFiltro.PrecoCriterio.Equals("menor"))
+                {
+                    produtos = this._contextoTeste.Produtos.OrderBy(p => p.Nome)
+                        .Skip((produtoFiltro.PaginaAtual - 1) * produtoFiltro.MaximoProdutosPorPagina)
+                        .Take(produtoFiltro.MaximoProdutosPorPagina)
+                        .Where(p => p.PrecoVenda <= produtoFiltro.PrecoFiltro)
+                        .ToList();
+                }
+                else
+                {
+                    produtos = this._contextoTeste.Produtos.OrderBy(p => p.Nome)
+                        .Skip((produtoFiltro.PaginaAtual - 1) * produtoFiltro.MaximoProdutosPorPagina)
+                        .Take(produtoFiltro.MaximoProdutosPorPagina)
+                        .Where(p => p.PrecoVenda == produtoFiltro.PrecoFiltro)
+                        .ToList();
+                }
+
+                if (!produtos.Any())
+                {
+
+                    return Ok(new List<ProdutoDTO>());
+                }
+
+                var produtosRetornar = new List<ProdutoDTO>();
+
+                foreach (var produto in produtos)
+                {
+                    ProdutoDTO produtoDTO = new ProdutoDTO();
+                    produtoDTO.ProdutoId = produto.ProdutoId;
+                    produtoDTO.Nome = produto.Nome;
+                    produtoDTO.UrlImagemProduto = produto.UrlImagemProduto;
+                    produtoDTO.PrecoVenda = produto.PrecoVenda;
+                    produtoDTO.PrecoCompra = produto.PrecoCompra;
+                    produtoDTO.Descricao = produto.Descricao;
+                    produtoDTO.UnidadesEstoque = produto.UnidadesEstoque;
+                    produtoDTO.Ativo = produto.Ativo;
+                    produtoDTO.CategoriaId = produto.CategoriaId;
+
+                    produtosRetornar.Add(produtoDTO);
+                }
+
+                return Ok(produtosRetornar);
+            }
+            catch (Exception e)
+            {
+
+                return BadRequest("Erro ao tentar-se filtrar os produtos pelo preço: " + e.Message);
+            }
+
+        }
+
     }
 }

@@ -1,5 +1,47 @@
 [
   {
+    "ContainingType": "ApiCatalogoProdutos.Controllers.CategoriaControllerPaginada",
+    "Method": "BuscarCategoriasPaginado",
+    "RelativePath": "api/CategoriaControllerPaginada",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PaginaAtual",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "TamanhoPagina",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiCatalogoProdutos.Controllers.CategoriaControllerPaginada",
+    "Method": "BuscarCategoriasPaginado2",
+    "RelativePath": "api/CategoriaControllerPaginada/buscar-paginado-2",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "paginaAtual",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "elementosPorPagina",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ApiCatalogoProdutos.Controllers.CategoriaControllerTestesCamadaRepositorio",
     "Method": "CadastrarCategoria",
     "RelativePath": "api/CategoriaControllerTestesCamadaRepositorio",
@@ -466,6 +508,52 @@
     "ReturnTypes": [
       {
         "Type": "ApiCatalogoProdutos.Models.Produto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiCatalogoProdutos.Controllers.ProdutosController",
+    "Method": "BuscarProdutosFiltroPaginado",
+    "RelativePath": "api/Produtos/filtrar-pelo-preco",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "MinimoProdutosPorPagina",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "MaximoProdutosPorPagina",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PaginaAtual",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PrecoCriterio",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PrecoFiltro",
+        "Type": "System.Double",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[ApiCatalogoProdutos.Models.Produto, ApiCatalogoProdutos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
