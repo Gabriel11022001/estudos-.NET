@@ -33,5 +33,31 @@ namespace ApiCatalogoProdutos.Utils
             return categoriasConvertidas;
         }
 
+        public static ProdutoDTO ConverterProdutoEmProdutoDTO(Produto produtoConverter)
+        {
+            ProdutoDTO produtoDTO = new ProdutoDTO();
+
+            produtoDTO.ProdutoId = produtoConverter.ProdutoId;
+            produtoDTO.Nome = produtoConverter.Nome;
+            produtoDTO.UrlImagemProduto = produtoConverter.UrlImagemProduto;
+            produtoDTO.UnidadesEstoque = produtoConverter.UnidadesEstoque;
+            produtoDTO.PrecoVenda = produtoConverter.PrecoVenda;
+            produtoDTO.PrecoCompra = produtoConverter.PrecoCompra;
+            produtoDTO.Ativo = produtoConverter.Ativo;
+            produtoDTO.Descricao = produtoConverter.Descricao;
+            
+            if (produtoConverter.Categoria is not null)
+            {
+                produtoDTO.CategoriaDTO = new CategoriaDTO()
+                {
+                    CategoriaId = produtoConverter.Categoria.CategoriaId,
+                    Nome = produtoConverter.Categoria.Nome,
+                    UrlImagemCategoria = produtoConverter.Categoria.UrlImagemCategoria
+                };
+            }
+
+            return produtoDTO;
+        }
+
     }
 }

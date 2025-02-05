@@ -117,5 +117,65 @@ namespace ApiCatalogoProdutos.Repositorios
             return produtoDTO;
         }
 
+        // =============== IMPLEMENTAR SERVICE E CONTROLLER PARA OS MÉTODOS DA CAMADA DE REPOSITÓRIO ABAIXO ====================
+
+        // editar produto de forma assincrona
+        public async Task EditarProdutoAssincrono(Produto produtoEditar)
+        {
+            this._contexto.Produtos.Entry(produtoEditar).State = EntityState.Modified;
+            await this._contexto.SaveChangesAsync();
+        }
+        
+        // buscar produto pelo id de forma assincrona
+        public async Task<Produto> BuscarProdutoPeloIdAssincrono(int idProdutoConsultar)
+        {
+
+            return await this._contexto
+                .Produtos
+                .Include(p => p.Categoria)
+                .FirstOrDefaultAsync(p => p.ProdutoId == idProdutoConsultar);
+        }
+
+        // buscar produtos de forma assincrona
+        public async Task<List<Produto>> BuscarProdutosAssincrono()
+        {
+
+            return await this._contexto
+                .Produtos
+                .Include(p => p.Categoria)
+                .OrderBy(p => p.Nome)
+                .ToListAsync();
+        }
+
+        // deletar produto de forma assincrona
+        public async Task DeletarProdutoAssincrono(Produto produtoDeletar)
+        {
+            this._contexto.Produtos.Entry(produtoDeletar).State = EntityState.Deleted;
+            await this._contexto.SaveChangesAsync();
+        }
+
+        // buscar produtos entre preço assincrono
+        public async Task<List<Produto>> FiltrarProdutosEntrePrecosAssincrono(Double precoInicial, Double precoFinal)
+        {
+
+            return await this._contexto
+                .Produtos
+                .Include(p => p.Categoria)
+                .Where(p => p.PrecoVenda >= precoInicial && p.PrecoVenda <= precoFinal)
+                .ToListAsync();
+        }
+
+        // filtrar produtos pelo nome assincrono
+        public async Task<List<Produto>> FiltrarProdutosPeloNomeAssincrono(String nomeProdutoFiltro)
+        {
+
+            return await this._contexto
+                .Produtos
+                .Include(p => p.Categoria)
+                .OrderBy(p => p.Nome)
+                .Where(p => p.Nome.Contains(nomeProdutoFiltro))
+                .ToListAsync();
+        }
+
     }
 }

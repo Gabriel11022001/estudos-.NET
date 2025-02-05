@@ -11,11 +11,13 @@ namespace ApiCatalogoProdutos.Servicos
 
         private CategoriaRepositorio _categoriaRepositorio;
         private ProdutoRepositorio _produtoRepositorio;
+        private CategoriaRepositorioAssincrono _categoriaRepositorioAssinc;
 
         public CategoriaServico(AppDbContexto contexto)
         {
             this._categoriaRepositorio = new CategoriaRepositorio(contexto);
             this._produtoRepositorio = new ProdutoRepositorio(contexto);
+            this._categoriaRepositorioAssinc = new CategoriaRepositorioAssincrono(contexto);
         }
 
         public RespostaHttp<bool> CadastrarCategoria(CategoriaDTO categoriaCadastrarDTO)
@@ -161,6 +163,194 @@ namespace ApiCatalogoProdutos.Servicos
                 };
             }
 
+        }
+
+        // buscar todas as categorias na base de dados de forma assinc
+        public async Task<RespostaHttp<List<CategoriaDTO>>> BuscarTodasCategoriasAssincrono()
+        {
+
+            try
+            {
+                List<Categoria> categorias = await this._categoriaRepositorioAssinc.BuscarTodasCategorias();
+
+                if (categorias.Count > 0)
+                {
+                    List<CategoriaDTO> categoriasDTO = new List<CategoriaDTO>();
+
+                    foreach (Categoria categoria in categorias)
+                    {
+                        CategoriaDTO categoriaDTO = new CategoriaDTO();
+                        categoriaDTO.CategoriaId = categoria.CategoriaId;
+                        categoriaDTO.Nome = categoria.Nome;
+                        categoriaDTO.UrlImagemCategoria = categoria.UrlImagemCategoria;
+
+                        categoriasDTO.Add(categoriaDTO);
+                    }
+
+                    return new RespostaHttp<List<CategoriaDTO>>()
+                    {
+                        Mensagem = "Categorias encontradas com sucesso!",
+                        Conteudo = categoriasDTO,
+                        Ok = true
+                    };
+                }
+
+                return new RespostaHttp<List<CategoriaDTO>>()
+                {
+                    Mensagem = "Não existem categorias cadastradas na base de dados!",
+                    Conteudo = new List<CategoriaDTO>(),
+                    Ok = true
+                };
+            }
+            catch (Exception e)
+            {
+                return new RespostaHttp<List<CategoriaDTO>>()
+                {
+                    Mensagem = "Erro ao tentar-se consultar as categorias assinc!",
+                    Ok = false,
+                    Conteudo = new List<CategoriaDTO>()
+                };
+            }
+
+        }
+
+        // buscar categoria pelo id de forma assinc
+        public async Task<RespostaHttp<CategoriaDTO>> BuscarCategoriaPeloIdAssincrono(int id)
+        {
+
+            try
+            {
+                Categoria categoria = await this._categoriaRepositorioAssinc.BuscarCategoriaPeloId(id);
+
+                if (categoria is not null)
+                {
+                    CategoriaDTO categoriaDTO = new CategoriaDTO(categoria);
+
+                    return new RespostaHttp<CategoriaDTO>()
+                    {
+                        Mensagem = "Categoria encontrada com sucesso!",
+                        Conteudo = categoriaDTO,
+                        Ok = true
+                    };
+                }
+
+                return new RespostaHttp<CategoriaDTO>()
+                {
+                    Mensagem = "Não existe uma categoria com esse id!",
+                    Ok = false,
+                    Conteudo = null
+                };
+            }
+            catch (Exception e)
+            {
+
+                return new RespostaHttp<CategoriaDTO>()
+                {
+                    Mensagem = "Erro ao tentar-se consultar a categoria pelo id!",
+                    Conteudo = null,
+                    Ok = false
+                };
+            }
+
+        }
+
+        // cadastrar categoria de forma assincrona
+        public async Task<RespostaHttp<CategoriaDTO>> CadastrarCategoriaAssincrono(CategoriaDTO categoriaDTO)
+        {
+
+            try
+            {
+                // validar se já existe uma categoria cadastrada com o mesmo nome
+                Categoria categoriaCadastradaMesmoNome = await this._categoriaRepositorioAssinc.BuscarCategoriaPeloNomeAssincrono(categoriaDTO.Nome);
+
+                if (categoriaCadastradaMesmoNome is not null)
+                {
+
+                    return new RespostaHttp<CategoriaDTO>()
+                    {
+                        Mensagem = "Já existe outra categoia cadastrada com o mesmo nome!",
+                        Conteudo = null,
+                        Ok = false
+                    };
+                }
+
+                Categoria categoriaCadastrar = new Categoria();
+                categoriaCadastrar.Nome = categoriaDTO.Nome.Trim();
+                categoriaCadastrar.UrlImagemCategoria = categoriaDTO.UrlImagemCategoria;
+
+                await this._categoriaRepositorioAssinc.CadastrarCategoria(categoriaCadastrar);
+
+                categoriaDTO.CategoriaId = categoriaCadastrar.CategoriaId;
+
+                return new RespostaHttp<CategoriaDTO>()
+                {
+                    Mensagem = "Categoria cadastrada com sucesso!",
+                    Conteudo = categoriaDTO,
+                    Ok = true
+                };
+            }
+            catch (Exception e)
+            {
+
+                return new RespostaHttp<CategoriaDTO>()
+                {
+                    Mensagem = "Erro ao tentar-se cadastrar a categoria!",
+                    Conteudo = null,
+                    Ok = false
+                };
+            }
+
+        }
+
+        // editar categoria de forma assincrona
+        public async Task<RespostaHttp<CategoriaDTO>> EditarCategoriaAssincrono(CategoriaDTO categoriaDTO)
+        {
+            RespostaHttp<CategoriaDTO> resposta = new RespostaHttp<CategoriaDTO>();
+
+            try
+            {
+                Categoria categoriaEditar = await this._categoriaRepositorioAssinc.BuscarCategoriaPeloId(categoriaDTO.CategoriaId);
+
+                if (categoriaEditar is null)
+                {
+                    resposta.Mensagem = "Não existe uma categoria cadastrada com esse id na base de dados!";
+                    resposta.Conteudo = null;
+                    resposta.Ok = false;
+                }
+                else
+                {
+                    // validar se já existe outra categoria cadastrada com o mesmo nome
+                    Categoria categoriaCadastradaMesmoNome = await this._categoriaRepositorioAssinc.BuscarCategoriaPeloNomeAssincrono(categoriaDTO.Nome);
+
+                    if (categoriaCadastradaMesmoNome is not null && categoriaCadastradaMesmoNome.CategoriaId != categoriaEditar.CategoriaId)
+                    {
+                        resposta.Mensagem = "Já existe outra categoria cadastrada com esse nome!";
+                        resposta.Ok = false;
+                        resposta.Conteudo = null;
+                    }
+                    else
+                    {
+                        categoriaEditar.Nome = categoriaDTO.Nome;
+                        categoriaEditar.UrlImagemCategoria = categoriaDTO.UrlImagemCategoria;
+
+                        await this._categoriaRepositorioAssinc.EditarCategoria(categoriaEditar);
+
+                        resposta.Mensagem = "Categoria editada com sucesso!";
+                        resposta.Conteudo = categoriaDTO;
+                        resposta.Ok = true;
+                    }
+
+                }
+
+            }
+            catch (Exception e)
+            {
+                resposta.Mensagem = "Erro ao tentar-se editar a categoria!";
+                resposta.Conteudo = null;
+                resposta.Ok = false;
+            }
+
+            return resposta;
         }
 
     }

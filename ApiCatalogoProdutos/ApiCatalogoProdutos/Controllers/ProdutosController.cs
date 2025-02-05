@@ -387,5 +387,62 @@ namespace ApiCatalogoProdutos.Controllers
 
         }
 
+        // buscar produtos de forma assincrona
+        [ HttpGet("buscar-produtos-assincrono") ]
+        public async Task<IActionResult> BuscarProdutosAssincrono()
+        {
+            var respostaConsultarProdutosAssincrono = await this._produtoServico.BuscarProdutosAssincrono();
+
+            if (respostaConsultarProdutosAssincrono.Ok)
+            {
+
+                return Ok(respostaConsultarProdutosAssincrono);
+            }
+
+            return BadRequest(respostaConsultarProdutosAssincrono);
+        }
+
+        // buscar produto pelo id assincrono
+        [ HttpGet("buscar-produto-pelo-id-assincrono/{idProdutoConsultar:int}") ]
+        public async Task<IActionResult> BuscarProdutoPeloIdAssincrono(int idProdutoConsultar)
+        {
+            RespostaHttp<ProdutoDTO> respostaConsultarProdutoPeloId = await this._produtoServico.BuscarProdutoPeloIdAssincrono(idProdutoConsultar);
+
+            switch (respostaConsultarProdutoPeloId.Mensagem)
+            {
+                case "Produto encontrado com sucesso!":
+
+                    return Ok(respostaConsultarProdutoPeloId);
+                case "Não existe um produto cadastrado com esse id na base de dados!":
+
+                    return NotFound(respostaConsultarProdutoPeloId);
+                default:
+                    return BadRequest(respostaConsultarProdutoPeloId);
+            }
+
+        }
+
+        // editar produto assincrono
+        [ HttpPut("editar-produto-assincrono") ]
+        public async Task<IActionResult> EditarProdutoAssincrono(ProdutoCadastrarEditarDTO produtoCadastrarEditarDTO)
+        {
+            RespostaHttp<ProdutoCadastrarEditarDTO> resposta = await this._produtoServico.EditarProdutoAssincrono(produtoCadastrarEditarDTO);
+
+            if (resposta.Ok)
+            {
+
+                return Ok(resposta);
+            }
+
+            if (resposta.Mensagem.Equals("Não existe uma categoria cadastrada com esse id na base de dados!")
+                || resposta.Mensagem.Equals("Não existe um produto cadastrado na base de dados com o id informado!"))
+            {
+
+                return NotFound(resposta);
+            }
+
+            return BadRequest(resposta);
+        }
+
     }
 }

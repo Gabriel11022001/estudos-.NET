@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\ApiCatalogoProdutos\\ApiCatalogoProdutos\\ApiCatalogoProdutos.csproj": {}
+    "C:\\Users\\Gabriel Rodrigues\\Desktop\\MEUS ARQUIVOS\\CURSOS\\estudos .NET\\ApiCatalogoProdutos\\ApiCatalogoProdutos\\ApiCatalogoProdutos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\ApiCatalogoProdutos\\ApiCatalogoProdutos\\ApiCatalogoProdutos.csproj": {
+    "C:\\Users\\Gabriel Rodrigues\\Desktop\\MEUS ARQUIVOS\\CURSOS\\estudos .NET\\ApiCatalogoProdutos\\ApiCatalogoProdutos\\ApiCatalogoProdutos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\ApiCatalogoProdutos\\ApiCatalogoProdutos\\ApiCatalogoProdutos.csproj",
+        "projectUniqueName": "C:\\Users\\Gabriel Rodrigues\\Desktop\\MEUS ARQUIVOS\\CURSOS\\estudos .NET\\ApiCatalogoProdutos\\ApiCatalogoProdutos\\ApiCatalogoProdutos.csproj",
         "projectName": "ApiCatalogoProdutos",
-        "projectPath": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\ApiCatalogoProdutos\\ApiCatalogoProdutos\\ApiCatalogoProdutos.csproj",
+        "projectPath": "C:\\Users\\Gabriel Rodrigues\\Desktop\\MEUS ARQUIVOS\\CURSOS\\estudos .NET\\ApiCatalogoProdutos\\ApiCatalogoProdutos\\ApiCatalogoProdutos.csproj",
         "packagesPath": "C:\\Users\\Gabriel Rodrigues\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\CURSOS\\estudos .NET\\ApiCatalogoProdutos\\ApiCatalogoProdutos\\obj\\",
+        "outputPath": "C:\\Users\\Gabriel Rodrigues\\Desktop\\MEUS ARQUIVOS\\CURSOS\\estudos .NET\\ApiCatalogoProdutos\\ApiCatalogoProdutos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Gabriel Rodrigues\\AppData\\Roaming\\NuGet\\NuGet.Config",

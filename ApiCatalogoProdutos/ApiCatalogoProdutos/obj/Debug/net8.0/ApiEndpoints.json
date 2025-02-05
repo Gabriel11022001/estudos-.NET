@@ -1,5 +1,84 @@
 [
   {
+    "ContainingType": "ApiCatalogoProdutos.Controllers.CategoriaControllerAssincrono",
+    "Method": "BuscarTodasCategoriasAssincrono",
+    "RelativePath": "api/CategoriaControllerAssincrono",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiCatalogoProdutos.Controllers.CategoriaControllerAssincrono",
+    "Method": "CadastrarCategoriaAssincrono",
+    "RelativePath": "api/CategoriaControllerAssincrono",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoriaDTO",
+        "Type": "ApiCatalogoProdutos.DTO.CategoriaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiCatalogoProdutos.Controllers.CategoriaControllerAssincrono",
+    "Method": "EditarCategoriaAssincrono",
+    "RelativePath": "api/CategoriaControllerAssincrono",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoriaDTO",
+        "Type": "ApiCatalogoProdutos.DTO.CategoriaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiCatalogoProdutos.Controllers.CategoriaControllerAssincrono",
+    "Method": "BuscarCategoriaPeloIdAssincrono",
+    "RelativePath": "api/CategoriaControllerAssincrono/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiCatalogoProdutos.Controllers.CategoriaControllerAssincrono",
+    "Method": "BuscarCategoriasPaginadoAssincrono",
+    "RelativePath": "api/CategoriaControllerAssincrono/buscar-categorias-paginadas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "paginaAtual",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "totalElementosPorPagina",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ApiCatalogoProdutos.Controllers.CategoriaControllerPaginada",
     "Method": "BuscarCategoriasPaginado",
     "RelativePath": "api/CategoriaControllerPaginada",
@@ -379,6 +458,32 @@
   },
   {
     "ContainingType": "ApiCatalogoProdutos.Controllers.ProdutosController",
+    "Method": "BuscarProdutoPeloIdAssincrono",
+    "RelativePath": "api/Produtos/buscar-produto-pelo-id-assincrono/{idProdutoConsultar}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idProdutoConsultar",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiCatalogoProdutos.Controllers.ProdutosController",
+    "Method": "BuscarProdutosAssincrono",
+    "RelativePath": "api/Produtos/buscar-produtos-assincrono",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiCatalogoProdutos.Controllers.ProdutosController",
     "Method": "BuscarProdutosAsync",
     "RelativePath": "api/Produtos/buscar-produtos-async",
     "HttpMethod": "GET",
@@ -486,6 +591,22 @@
       {
         "Name": "idProdutoDeletar",
         "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiCatalogoProdutos.Controllers.ProdutosController",
+    "Method": "EditarProdutoAssincrono",
+    "RelativePath": "api/Produtos/editar-produto-assincrono",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "produtoCadastrarEditarDTO",
+        "Type": "ApiCatalogoProdutos.DTO.ProdutoCadastrarEditarDTO",
         "IsRequired": true
       }
     ],
